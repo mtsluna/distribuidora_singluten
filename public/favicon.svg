@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <circle cx="32" cy="32" r="32" fill="#2D6A4F"/>
+  <text x="50%" y="56%" dominant-baseline="middle" text-anchor="middle"
+    font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FAFAF8">
+    SG
+  </text>
+</svg>

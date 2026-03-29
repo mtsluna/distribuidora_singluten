@@ -1,0 +1,47 @@
+---
+---
+
+<header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16 lg:h-20">
+      <!-- Logo -->
+      <a href="#inicio" class="flex items-center gap-2 group">
+        <img
+          src={`${import.meta.env.BASE_URL}images/logo.png`}
+          alt="Distribuidora Sin Gluten"
+          class="w-8 h-8 rounded-full object-cover"
+        />
+        <div class="leading-tight">
+          <span class="block text-[#1C1C1C] text-sm font-semibold tracking-wide group-hover:text-[#2D6A4F] transition-colors">Distribuidora</span>
+          <span class="block text-[#2D6A4F] text-xs font-light tracking-widest uppercase">Sin Gluten</span>
+        </div>
+      </a>
+
+      <!-- Nav desktop -->
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="#nosotros" class="text-[#1C1C1C]/70 hover:text-[#2D6A4F] text-sm font-medium transition-colors">Nosotros</a>
+        <a href="#categorias" class="text-[#1C1C1C]/70 hover:text-[#2D6A4F] text-sm font-medium transition-colors">Categorías</a>
+        <a href="#cobertura" class="text-[#1C1C1C]/70 hover:text-[#2D6A4F] text-sm font-medium transition-colors">Cobertura</a>
+        <a href="#contacto" class="bg-[#2D6A4F] hover:bg-[#245840] text-white text-sm font-medium px-5 py-2.5 rounded-full transition-colors">
+          Solicitá Precios
+        </a>
+      </nav>
+
+      <!-- Mobile CTA -->
+      <a href="#contacto" class="md:hidden bg-[#2D6A4F] text-white text-xs font-medium px-4 py-2 rounded-full transition-colors">
+        Precios
+      </a>
+    </div>
+  </div>
+</header>
+
+<script>
+  const header = document.getElementById('header');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 80) {
+      header?.classList.add('shadow-lg');
+    } else {
+      header?.classList.remove('shadow-lg');
+    }
+  });
+</script>

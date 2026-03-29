@@ -1,0 +1,102 @@
+---
+---
+
+<footer class="bg-[#111111] text-white pt-14 pb-8">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <!-- Main footer content -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+
+      <!-- Brand -->
+      <div class="lg:col-span-2">
+        <div class="flex items-center gap-2 mb-4">
+          <img
+            src={`${import.meta.env.BASE_URL}images/logo.png`}
+            alt="Distribuidora Sin Gluten"
+            class="w-8 h-8 object-contain rounded-full"
+          />
+          <div>
+            <span class="block text-white text-sm font-semibold">Distribuidora Sin Gluten</span>
+            <span class="block text-[#D4A574] text-xs font-light">Oscar Mascareño</span>
+          </div>
+        </div>
+        <p class="text-white/50 text-sm leading-relaxed mb-4 max-w-sm">
+          Distribuidora mayorista de productos sin gluten en el interior de Argentina.
+          Más de 20 años abasteciendo el mercado de Cuyo y alrededores.
+        </p>
+        <div class="flex flex-wrap gap-2">
+          {["Sin Gluten", "Sin TACC", "ANMAT", "Mayorista"].map((tag) => (
+            <span class="text-xs bg-white/5 border border-white/10 text-white/50 px-3 py-1 rounded-full">
+              {tag}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <div>
+        <h4 class="text-xs font-semibold tracking-widest uppercase text-white/40 mb-5">Navegación</h4>
+        <ul class="space-y-3">
+          {[
+            { href: "#inicio", label: "Inicio" },
+            { href: "#nosotros", label: "Nosotros" },
+            { href: "#categorias", label: "Categorías" },
+            { href: "#cobertura", label: "Cobertura" },
+            { href: "#contacto", label: "Contacto" },
+          ].map((item) => (
+            <li>
+              <a href={item.href} class="text-sm text-white/50 hover:text-white transition-colors">
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div>
+        <h4 class="text-xs font-semibold tracking-widest uppercase text-white/40 mb-5">Contacto</h4>
+        <ul class="space-y-3">
+          <li>
+            <a href="https://wa.me/5492615080439" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-sm text-white/50 hover:text-[#25D366] transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326z"/>
+              </svg>
+              WhatsApp: +5492615080439
+            </a>
+          </li>
+          <li>
+            <a href="tel:+5492615080439" class="flex items-center gap-2 text-sm text-white/50 hover:text-white transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328z"/>
+              </svg>
+              +5492615080439
+            </a>
+          </li>
+        </ul>
+
+        <!-- Provinces -->
+        <div class="mt-6">
+          <h4 class="text-xs font-semibold tracking-widest uppercase text-white/40 mb-3">Provincias</h4>
+          <p class="text-xs text-white/40 leading-relaxed">
+            Mendoza · San Juan · San Luis
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="border-t border-white/10 pt-8">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/30">
+        <p>© {new Date().getFullYear()} Distribuidora Sin Gluten - Oscar Mascareño. Todos los derechos reservados.</p>
+        <p>
+          Todos nuestros productos están certificados por{" "}
+          <a href="https://www.argentina.gob.ar/anmat/alg" target="_blank" rel="noopener noreferrer" class="hover:text-white/60 underline transition-colors">
+            ANMAT
+          </a>
+          {" "}como libres de gluten.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>

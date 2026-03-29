@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Distribuidora Sin Gluten Dev",
+      "runtimeExecutable": "/bin/bash",
+      "runtimeArgs": ["-c", "export PATH=$PATH:/Users/matiasluna/.nvm/versions/node/v22.20.0/bin && npm run dev -- --port 4321"],
+      "port": 4321
+    }
+  ]
+}

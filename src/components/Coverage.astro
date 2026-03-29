@@ -1,0 +1,129 @@
+---
+const provinces = [
+  { name: "Mendoza", desc: "Capital del Cuyo", color: "bg-[#2D6A4F]", icon: "🍷" },
+  { name: "San Juan", desc: "Sol y sabor", color: "bg-[#2D6A4F]", icon: "☀️" },
+  { name: "San Luis", desc: "Región de Cuyo", color: "bg-[#2D6A4F]", icon: "🏔️" },
+];
+---
+
+<section id="cobertura" class="py-20 lg:py-28 bg-[#FAFAF8]">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+
+      <!-- Content -->
+      <div>
+        <span class="inline-block text-[#2D6A4F] text-sm font-semibold tracking-widest uppercase mb-4">
+          Zona de cobertura
+        </span>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1C1C1C] leading-tight mb-6">
+          Llegamos donde<br/>
+          <span class="text-[#2D6A4F]">tu negocio necesita</span>
+        </h2>
+        <p class="text-lg text-gray-600 leading-relaxed mb-8">
+          Nuestra distribución cubre el <strong>corazón del interior argentino</strong>.
+          Mientras la mayoría de los distribuidores opera desde Buenos Aires,
+          nosotros tenemos presencia directa en el corazón de Cuyo.
+        </p>
+
+        <!-- Province list -->
+        <div class="space-y-3 mb-8">
+          {provinces.map((p) => (
+            <div class="flex items-center gap-4 p-4 bg-white rounded-xl border border-gray-100 hover:border-[#2D6A4F]/20 hover:shadow-sm transition-all">
+              <span class="text-2xl">{p.icon}</span>
+              <div>
+                <div class="font-semibold text-[#1C1C1C]">{p.name}</div>
+                <div class="text-sm text-gray-500">{p.desc}</div>
+              </div>
+              <div class="ml-auto">
+                <span class="inline-flex items-center gap-1 text-xs font-medium text-[#2D6A4F] bg-[#2D6A4F]/10 px-3 py-1 rounded-full">
+                  <span class="w-1.5 h-1.5 rounded-full bg-[#2D6A4F]"></span>
+                  Activo
+                </span>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <p class="text-sm text-gray-500 italic">
+          ¿Estás en otra provincia? Consultanos igualmente, evaluamos cada caso.
+        </p>
+      </div>
+
+      <!-- Map visual -->
+      <div class="relative flex items-center justify-center">
+        <div class="relative w-full max-w-md">
+          <!-- Map placeholder / visual -->
+          <div class="bg-white rounded-3xl shadow-2xl p-8 border border-gray-100">
+            <div class="text-center mb-6">
+              <h3 class="text-lg font-semibold text-[#1C1C1C] mb-1">Distribución directa</h3>
+              <p class="text-sm text-gray-500">en 3 provincias del interior</p>
+            </div>
+
+            <!-- Argentina SVG map -->
+            <div class="relative bg-[#F0F7F4] rounded-2xl p-4 mb-6">
+              <!-- Legend -->
+              <div class="absolute top-3 right-3 z-10 flex items-center gap-1.5 bg-white/90 backdrop-blur-sm px-2.5 py-1 rounded-full shadow-sm">
+                <span class="w-2.5 h-2.5 rounded-sm bg-[#2D6A4F]"></span>
+                <span class="text-xs text-[#2D6A4F] font-semibold">Cobertura activa</span>
+              </div>
+
+              <svg viewBox="0 0 200 310" xmlns="http://www.w3.org/2000/svg" class="w-full h-auto max-h-64" aria-label="Mapa de Argentina con cobertura en Cuyo">
+                <!-- Argentina body -->
+                <path d="M 68,8 L 88,5 L 148,8 L 180,22 L 190,42 L 192,68 L 188,90 L 192,110 L 186,132 L 172,150 L 158,165 L 146,192 L 136,220 L 126,250 L 110,272 L 92,285 L 75,292 L 58,282 L 44,260 L 36,230 L 28,200 L 22,172 L 20,145 L 20,118 L 22,90 L 24,68 L 32,48 L 48,28 L 68,8 Z"
+                      fill="#C8E0D8" stroke="#9DC4B8" stroke-width="0.8"/>
+
+                <!-- San Juan -->
+                <path d="M 24,72 L 82,68 L 86,80 L 86,114 L 76,120 L 34,120 L 22,108 L 20,88 Z"
+                      fill="#2D6A4F" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+
+                <!-- Mendoza -->
+                <path d="M 20,120 L 76,120 L 80,134 L 78,160 L 66,182 L 50,198 L 36,190 L 24,170 L 20,150 Z"
+                      fill="#2D6A4F" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+
+                <!-- San Luis -->
+                <path d="M 76,90 L 122,86 L 126,98 L 126,134 L 118,160 L 100,165 L 78,160 L 76,144 Z"
+                      fill="#2D6A4F" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+
+                <!-- Province labels -->
+                <text x="51" y="91" font-size="7" fill="white" font-weight="700" font-family="system-ui,sans-serif" text-anchor="middle" letter-spacing="0.4">SAN JUAN</text>
+                <text x="46" y="154" font-size="7" fill="white" font-weight="700" font-family="system-ui,sans-serif" text-anchor="middle" letter-spacing="0.4">MENDOZA</text>
+                <text x="100" y="128" font-size="6.5" fill="white" font-weight="700" font-family="system-ui,sans-serif" text-anchor="middle" letter-spacing="0.4">SAN LUIS</text>
+
+                <!-- City dots (capitals) -->
+                <circle cx="48" cy="98" r="4" fill="white" opacity="0.25"/>
+                <circle cx="48" cy="98" r="2.2" fill="white"/>
+
+                <circle cx="42" cy="140" r="4" fill="white" opacity="0.25"/>
+                <circle cx="42" cy="140" r="2.2" fill="white"/>
+
+                <circle cx="98" cy="130" r="4" fill="white" opacity="0.25"/>
+                <circle cx="98" cy="130" r="2.2" fill="white"/>
+              </svg>
+            </div>
+
+            <!-- Stats -->
+            <div class="grid grid-cols-3 gap-3 text-center pt-4 border-t border-gray-100">
+              <div>
+                <div class="text-2xl font-bold text-[#2D6A4F]">3</div>
+                <div class="text-xs text-gray-500">Provincias</div>
+              </div>
+              <div class="border-x border-gray-100">
+                <div class="text-2xl font-bold text-[#2D6A4F]">22</div>
+                <div class="text-xs text-gray-500">Categorías</div>
+              </div>
+              <div>
+                <div class="text-2xl font-bold text-[#2D6A4F]">20+</div>
+                <div class="text-xs text-gray-500">Años</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Decorative circles -->
+          <div class="absolute -top-6 -right-6 w-20 h-20 bg-[#2D6A4F]/10 rounded-full -z-10"></div>
+          <div class="absolute -bottom-6 -left-6 w-14 h-14 bg-[#D4A574]/20 rounded-full -z-10"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

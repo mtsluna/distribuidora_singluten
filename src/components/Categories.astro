@@ -1,0 +1,103 @@
+---
+import { categories } from '../data/categories';
+
+// Pre-compute animation data in frontmatter (avoids < operator in JSX)
+// Each category gets a random phase offset so they cycle independently
+const catData = categories.map(cat => {
+  const n = cat.productImages.length;
+  const cycle = n * 6;  // 6 seconds per image
+  const slot = 6;
+  const animName = n <= 2 ? 'imgFade2' : 'imgFade3';
+  const r = Math.random() * cycle; // unique random phase per category (build-time)
+  const delays = cat.productImages.map((_, i) => {
+    // offset each image within the cycle, then shift the whole group by r
+    const raw = (cycle - (i * slot + r) % cycle) % cycle;
+    return -Math.round(raw * 10) / 10; // round to 1 decimal
+  });
+  return { ...cat, cycle, animName, delays };
+});
+---
+
+<section id="categorias" class="py-20 lg:py-28 bg-[#FAFAF8]">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <!-- Section header -->
+    <div class="text-center mb-14">
+      <span class="inline-block text-[#2D6A4F] text-sm font-semibold tracking-widest uppercase mb-4">
+        Nuestro catálogo
+      </span>
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1C1C1C] mb-4">
+        {categories.length} categorías de productos
+      </h2>
+      <p class="text-lg text-gray-500 max-w-2xl mx-auto">
+        Más de <strong class="text-[#2D6A4F]">{categories.reduce((s, c) => s + c.count, 0)} productos</strong> en {categories.length} categorías,
+        todos libres de gluten y certificados por ANMAT.
+      </p>
+    </div>
+
+    <!-- Categories grid -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+      {catData.map((cat) => (
+        <a
+          href="#contacto"
+          class="group relative flex flex-col rounded-2xl border border-gray-100 hover:border-[#2D6A4F]/30 bg-white hover:shadow-md transition-all duration-300 hover:-translate-y-1 overflow-hidden"
+          title={`Productos sin gluten: ${cat.name} - consultar precios mayorista`}
+        >
+          <!-- Cycling product images -->
+          <div class="aspect-square overflow-hidden bg-gray-50 relative">
+            {cat.productImages.map((url, i) => (
+              <img
+                src={url}
+                alt={`Productos sin gluten: ${cat.name}`}
+                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                style={`animation: ${cat.animName} ${cat.cycle}s ${cat.delays[i]}s linear infinite; will-change: opacity;`}
+                loading="lazy"
+              />
+            ))}
+          </div>
+
+          <!-- Name label -->
+          <div class="px-2 py-2.5 text-center">
+            <span class="text-xs font-medium text-[#1C1C1C] leading-tight group-hover:text-[#2D6A4F] transition-colors">
+              {cat.name}
+            </span>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <!-- CTA under categories -->
+    <div class="mt-12 text-center">
+      <p class="text-gray-500 text-sm mb-5">¿Querés conocer disponibilidad y precios mayoristas?</p>
+      <a
+        href="https://wa.me/5492615080439?text=Hola%20Oscar%2C%20me%20interesa%20conocer%20el%20cat%C3%A1logo%20completo%20de%20productos%20sin%20gluten%20y%20precios%20mayoristas."
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1da851] text-white font-semibold px-7 py-3.5 rounded-full transition-all duration-300 hover:scale-105 shadow-md"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+        </svg>
+        Pedí el catálogo completo por WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* 3-image cycle: 18s total, 6s per image, 1.5s crossfade */
+  @keyframes imgFade3 {
+    0%      { opacity: 1; }
+    24.99%  { opacity: 1; }   /* hold for 4.5s */
+    33.33%  { opacity: 0; }   /* fade out over 1.5s */
+    100%    { opacity: 0; }
+  }
+
+  /* 2-image cycle: 12s total, 6s per image, 1.5s crossfade */
+  @keyframes imgFade2 {
+    0%     { opacity: 1; }
+    37.5%  { opacity: 1; }   /* hold for 4.5s */
+    50%    { opacity: 0; }   /* fade out over 1.5s */
+    100%   { opacity: 0; }
+  }
+</style>

@@ -1,0 +1,66 @@
+---
+---
+
+<section id="nosotros" class="py-20 lg:py-28 bg-white relative overflow-hidden">
+  <div class="absolute top-0 left-0 w-72 h-72 bg-[#2D6A4F]/5 rounded-full -translate-x-1/3 -translate-y-1/3 pointer-events-none"></div>
+  <div class="absolute bottom-0 right-0 w-56 h-56 bg-[#D4A574]/8 rounded-full translate-x-1/3 translate-y-1/3 pointer-events-none"></div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-2xl mx-auto">
+
+      <!-- Content -->
+      <div>
+        <span class="inline-block text-[#2D6A4F] text-sm font-semibold tracking-widest uppercase mb-4">
+          Quiénes somos
+        </span>
+
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1C1C1C] leading-tight mb-6">
+          Más de 20 años<br/>
+          <span class="text-[#2D6A4F]">abasteciendo Cuyo</span>
+        </h2>
+
+        <p class="text-lg text-gray-600 leading-relaxed mb-6">
+          Oscar Mascareño lleva más de dos décadas en el mercado de productos sin gluten,
+          construyendo una red de distribución mayorista que hoy abastece a cientos de comercios
+          en la región de Cuyo y alrededores.
+        </p>
+
+        <p class="text-base text-gray-600 leading-relaxed mb-8">
+          Trabajamos exclusivamente con productos <strong class="text-[#1C1C1C]">certificados por ANMAT</strong>,
+          garantizando que cada artículo cumpla con los estándares de seguridad alimentaria
+          requeridos por celiácos y personas con intolerancia al gluten.
+        </p>
+
+        <!-- Value propositions -->
+        <div class="space-y-4 mb-8">
+          {[
+            { title: "Distribución regional", desc: "Cobertura directa en Mendoza, San Juan y San Luis." },
+            { title: "Solo mayorista", desc: "Precios competitivos para comercios, dietéticas, almacenes y gastronomía." },
+            { title: "Garantía de calidad", desc: "Todos nuestros productos están aprobados por ANMAT y libres de gluten." },
+          ].map((item) => (
+            <div class="flex items-start gap-3">
+              <div class="w-5 h-5 rounded-full bg-[#2D6A4F] flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="white" viewBox="0 0 16 16">
+                  <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                </svg>
+              </div>
+              <div>
+                <span class="font-semibold text-[#1C1C1C]">{item.title}: </span>
+                <span class="text-gray-600">{item.desc}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <a
+          href="#contacto"
+          class="inline-flex items-center gap-2 bg-[#2D6A4F] hover:bg-[#245840] text-white font-semibold px-7 py-3.5 rounded-full transition-all duration-300 hover:scale-105"
+        >
+          Contactanos ahora
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
