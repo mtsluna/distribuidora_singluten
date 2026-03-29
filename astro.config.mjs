@@ -7,8 +7,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   // IMPORTANTE: Reemplazá con tu URL real de GitHub Pages
   // Ejemplo: site: 'https://tu-usuario.github.io', base: '/distribuidora_singluten'
-  site: 'https://mtsluna.github.io',
-  base: '/distribuidora_singluten',
+  site: 'https://www.distribuidorasingluten.com.ar',
   vite: {
     plugins: [tailwindcss()]
   },
