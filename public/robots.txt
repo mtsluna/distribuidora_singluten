@@ -3,7 +3,7 @@ Allow: /
 
 # Sitemaps
 # ACTUALIZAR con tu URL real de GitHub Pages
-Sitemap: https://distribuidora-singluten.github.io/distribuidora_singluten/sitemap-index.xml
+Sitemap: https://mtsluna.github.io/distribuidora_singluten/sitemap-index.xml
 
 # Crawl-delay (optional, be respectful)
 Crawl-delay: 1
