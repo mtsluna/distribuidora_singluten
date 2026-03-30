@@ -1,0 +1,182 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { categories } from '../../data/categories.ts';
+import type { Category } from '../../data/categories.ts';
+
+const SITE_URL = "https://www.distribuidorasingluten.com.ar";
+
+export async function getStaticPaths() {
+  return categories.map(cat => ({ params: { slug: cat.slug }, props: { cat } }));
+}
+
+interface Props { cat: Category }
+const { cat } = Astro.props;
+
+const title = `${cat.name} Sin Gluten al Por Mayor | Distribuidora Mayorista Cuyo`;
+const description = `Distribuidora mayorista de ${cat.name.toLowerCase()} sin gluten en Mendoza, San Juan y San Luis. ${cat.count} productos certificados por ANMAT. Solo venta a comercios.`;
+const image = cat.productImages[0] ?? cat.imageUrl;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": SITE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Catálogo", "item": `${SITE_URL}/#categorias` },
+        { "@type": "ListItem", "position": 3, "name": cat.name }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": `${SITE_URL}/categorias/${cat.slug}#list`,
+      "name": `${cat.name} sin gluten`,
+      "description": `Distribuidora mayorista de ${cat.name.toLowerCase()} sin gluten en Cuyo. ${cat.count} productos certificados por ANMAT.`,
+      "numberOfItems": cat.count
+    }
+  ]
+};
+---
+
+<Layout title={title} description={description} image={image}>
+  <Header />
+
+  <main class="pt-16 lg:pt-20">
+    <!-- Breadcrumb -->
+    <div class="bg-[#FAFAF8] border-b border-gray-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        <nav class="flex items-center gap-2 text-sm text-gray-500">
+          <a href="/" class="hover:text-[#2D6A4F] transition-colors">Inicio</a>
+          <span>›</span>
+          <a href="/#categorias" class="hover:text-[#2D6A4F] transition-colors">Catálogo</a>
+          <span>›</span>
+          <span class="text-[#1C1C1C] font-medium">{cat.name}</span>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Hero de categoría -->
+    <section class="py-16 lg:py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl">
+          <span class="inline-block text-[#2D6A4F] text-sm font-semibold tracking-widest uppercase mb-4">
+            Distribución mayorista
+          </span>
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#1C1C1C] leading-tight mb-4">
+            {cat.name}<br/>
+            <span class="text-[#2D6A4F]">sin gluten al por mayor</span>
+          </h1>
+          <p class="text-lg text-gray-600 mb-3">
+            <strong class="text-[#1C1C1C]">{cat.count} productos certificados por ANMAT</strong> · Distribución directa en Mendoza, San Juan y San Luis.
+          </p>
+          <p class="text-base text-gray-500 mb-8">
+            Todos nuestros {cat.name.toLowerCase()} sin gluten cuentan con certificación oficial de ANMAT (Administración Nacional de Medicamentos, Alimentos y Tecnología Médica) y son aptos para celíacos y personas con intolerancia al gluten.
+          </p>
+
+          <!-- Badges -->
+          <div class="flex flex-wrap gap-3 mb-8">
+            <span class="inline-flex items-center gap-1.5 text-sm font-medium text-[#2D6A4F] bg-[#2D6A4F]/10 px-4 py-2 rounded-full">
+              <span class="w-1.5 h-1.5 rounded-full bg-[#2D6A4F]"></span>
+              {cat.count} productos disponibles
+            </span>
+            <span class="inline-flex items-center gap-1.5 text-sm font-medium text-[#2D6A4F] bg-[#2D6A4F]/10 px-4 py-2 rounded-full">
+              <span class="w-1.5 h-1.5 rounded-full bg-[#2D6A4F]"></span>
+              Certificado ANMAT
+            </span>
+            <span class="inline-flex items-center gap-1.5 text-sm font-medium text-[#2D6A4F] bg-[#2D6A4F]/10 px-4 py-2 rounded-full">
+              <span class="w-1.5 h-1.5 rounded-full bg-[#2D6A4F]"></span>
+              Solo mayorista
+            </span>
+          </div>
+
+          <a
+            href={`https://wa.me/5492615080439?text=Hola%2C%20quiero%20consultar%20precios%20mayoristas%20de%20${encodeURIComponent(cat.name)}%20sin%20gluten.`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#1da851] text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 shadow-md text-base"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326z"/>
+            </svg>
+            Consultar precios de {cat.name}
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Imágenes de productos -->
+    {cat.productImages.length > 0 && (
+      <section class="py-12 bg-[#FAFAF8]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-xl font-semibold text-[#1C1C1C] mb-6">Muestra de productos</h2>
+          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+            {cat.productImages.map((img, i) => (
+              <div class="aspect-square bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-md transition-shadow">
+                <img
+                  src={img}
+                  alt={`${cat.name} sin gluten - producto ${i + 1}`}
+                  class="w-full h-full object-contain p-4"
+                  loading={i === 0 ? "eager" : "lazy"}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <!-- Info blocks -->
+    <section class="py-14 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl">
+          <div class="bg-[#FAFAF8] border border-gray-100 rounded-2xl p-6">
+            <div class="text-3xl font-bold text-[#2D6A4F] mb-1">{cat.count}</div>
+            <div class="text-sm text-gray-500">productos de {cat.name.toLowerCase()} sin gluten</div>
+          </div>
+          <div class="bg-[#FAFAF8] border border-gray-100 rounded-2xl p-6">
+            <div class="text-3xl font-bold text-[#2D6A4F] mb-1">3</div>
+            <div class="text-sm text-gray-500">provincias de cobertura directa</div>
+          </div>
+          <div class="bg-[#FAFAF8] border border-gray-100 rounded-2xl p-6">
+            <div class="text-3xl font-bold text-[#2D6A4F] mb-1">20+</div>
+            <div class="text-sm text-gray-500">años distribuyendo sin TACC</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA final -->
+    <section class="py-16 bg-[#2D6A4F]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4">
+          ¿Querés {cat.name.toLowerCase()} sin gluten para tu comercio?
+        </h2>
+        <p class="text-white/80 mb-8 max-w-xl mx-auto">
+          Abastecemos dietéticas, almacenes, supermercados y gastronomía en Mendoza, San Juan y San Luis. Precios mayoristas con entrega directa.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href={`https://wa.me/5492615080439?text=Hola%2C%20quiero%20consultar%20precios%20mayoristas%20de%20${encodeURIComponent(cat.name)}%20sin%20gluten.`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1da851] text-white font-semibold px-8 py-4 rounded-full transition-all hover:scale-105 shadow-md"
+          >
+            Consultar por WhatsApp
+          </a>
+          <a
+            href="/#categorias"
+            class="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-4 rounded-full transition-all border border-white/20"
+          >
+            ← Ver todas las categorías
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+</Layout>

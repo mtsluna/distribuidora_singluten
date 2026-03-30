@@ -4,17 +4,17 @@ import { categories } from '../data/categories';
 // Pre-compute animation data in frontmatter (avoids < operator in JSX)
 // Each category gets a random phase offset so they cycle independently
 const catData = categories.map(cat => {
-  const n = cat.productImages.length;
+  const animImgs = cat.productImages.slice(0, 3); // home card cycles max 3
+  const n = animImgs.length;
   const cycle = n * 6;  // 6 seconds per image
   const slot = 6;
   const animName = n <= 2 ? 'imgFade2' : 'imgFade3';
   const r = Math.random() * cycle; // unique random phase per category (build-time)
-  const delays = cat.productImages.map((_, i) => {
-    // offset each image within the cycle, then shift the whole group by r
+  const delays = animImgs.map((_, i) => {
     const raw = (cycle - (i * slot + r) % cycle) % cycle;
-    return -Math.round(raw * 10) / 10; // round to 1 decimal
+    return -Math.round(raw * 10) / 10;
   });
-  return { ...cat, cycle, animName, delays };
+  return { ...cat, animImgs, cycle, animName, delays };
 });
 ---
 
@@ -39,13 +39,13 @@ const catData = categories.map(cat => {
     <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
       {catData.map((cat) => (
         <a
-          href="#contacto"
+          href={`/categorias/${cat.slug}`}
           class="group relative flex flex-col rounded-2xl border border-gray-100 hover:border-[#2D6A4F]/30 bg-white hover:shadow-md transition-all duration-300 hover:-translate-y-1 overflow-hidden"
-          title={`Productos sin gluten: ${cat.name} - consultar precios mayorista`}
+          title={`${cat.name} sin gluten al por mayor - ${cat.count} productos`}
         >
           <!-- Cycling product images -->
           <div class="aspect-square overflow-hidden bg-gray-50 relative">
-            {cat.productImages.map((url, i) => (
+            {cat.animImgs.map((url, i) => (
               <img
                 src={url}
                 alt={`Productos sin gluten: ${cat.name}`}
