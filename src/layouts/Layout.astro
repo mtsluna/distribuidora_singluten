@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { categories } from '../data/categories.ts';
 
 interface Props {
   title?: string;
@@ -13,27 +14,123 @@ const {
   image = `https://www.distribuidorasingluten.com.ar/images/logo.png`,
 } = Astro.props;
 
-const canonicalURL = Astro.url;
+const canonicalURL = Astro.url.toString();
+const SITE_URL = "https://www.distribuidorasingluten.com.ar";
 
 const schemaOrg = {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Distribuidora Sin Gluten - Oscar Mascareño",
-  "description": "Distribuidora mayorista de productos sin gluten y sin TACC en la región de Cuyo, Argentina. Más de 20 años de trayectoria.",
-  "url": canonicalURL,
-  "telephone": "+5492615080439",
-  "email": "[EMAIL]",
-  "areaServed": [
-    { "@type": "State", "name": "Mendoza", "addressCountry": "AR" },
-    { "@type": "State", "name": "San Juan", "addressCountry": "AR" },
-    { "@type": "State", "name": "San Luis", "addressCountry": "AR" }
-  ],
-  "knowsAbout": ["productos sin gluten", "sin TACC", "alimentos para celíacos", "distribución mayorista"],
-  "foundingDate": "2005",
-  "founder": {
-    "@type": "Person",
-    "name": "Oscar Mascareño"
-  }
+  "@graph": [
+    {
+      "@type": ["WholesaleStore", "LocalBusiness"],
+      "@id": `${SITE_URL}/#business`,
+      "name": "Distribuidora Sin Gluten",
+      "alternateName": ["Distribuidora Sin Gluten", "Mayorista Sin TACC Cuyo"],
+      "description": "Distribuidora mayorista de productos sin gluten y sin TACC en la región de Cuyo, Argentina. Más de 20 años de trayectoria. 336 productos certificados por ANMAT en 22 categorías.",
+      "url": SITE_URL,
+      "telephone": "+5492615080439",
+      "email": "distribuidorasingluten@gmail.com",
+      "foundingDate": "2005",
+      "priceRange": "$$",
+      "currenciesAccepted": "ARS",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mendoza",
+        "addressRegion": "Mendoza",
+        "addressCountry": "AR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -32.88932,
+        "longitude": -68.84720
+      },
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Mendoza", "addressCountry": "AR" },
+        { "@type": "AdministrativeArea", "name": "San Juan", "addressCountry": "AR" },
+        { "@type": "AdministrativeArea", "name": "San Luis", "addressCountry": "AR" }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "founder": {
+        "@type": "Person",
+        "@id": `${SITE_URL}/#founder`,
+        "name": "Distribuidora Sin Gluten"
+      },
+      "knowsAbout": [
+        "productos sin gluten", "sin TACC", "alimentos para celíacos",
+        "distribución mayorista de alimentos", "normativa ANMAT alimentos sin gluten"
+      ],
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Distribución mayorista de productos sin gluten",
+          "description": "Venta y distribución al por mayor de más de 336 productos sin gluten certificados por ANMAT para dietéticas, almacenes, supermercados y gastronomía en Cuyo."
+        },
+        "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
+        "areaServed": "Cuyo, Argentina"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "@id": `${SITE_URL}/#catalog`,
+        "name": "Catálogo de productos sin gluten",
+        "numberOfItems": 336,
+        "description": "336 productos sin gluten y sin TACC certificados por ANMAT, en 22 categorías."
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${SITE_URL}/images/logo.png`
+      },
+      "image": `${SITE_URL}/images/logo.png`,
+      "sameAs": [
+        `https://wa.me/5492615080439`
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${SITE_URL}/#website`,
+      "url": SITE_URL,
+      "name": "Distribuidora Sin Gluten",
+      "description": "Distribuidora mayorista de productos sin gluten y sin TACC en Cuyo, Argentina.",
+      "publisher": { "@id": `${SITE_URL}/#business` },
+      "inLanguage": "es-AR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${SITE_URL}/#webpage`,
+      "url": SITE_URL,
+      "name": title,
+      "description": description,
+      "isPartOf": { "@id": `${SITE_URL}/#website` },
+      "about": { "@id": `${SITE_URL}/#business` },
+      "inLanguage": "es-AR",
+      "breadcrumb": { "@id": `${SITE_URL}/#breadcrumb` }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${SITE_URL}/#breadcrumb`,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": SITE_URL }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": `${SITE_URL}/#category-list`,
+      "name": "Categorías de productos sin gluten",
+      "description": "22 categorías de productos sin gluten y sin TACC distribuidos por Distribuidora Sin Gluten en la región de Cuyo.",
+      "numberOfItems": categories.length,
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "itemListElement": categories.map((cat, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "name": cat.name,
+        "url": `${SITE_URL}/#categorias`
+      }))
+    }
+  ]
 };
 ---
 
@@ -42,16 +139,12 @@ const schemaOrg = {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="generator" content={Astro.generator} />
 
     <!-- Primary SEO -->
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
     <meta name="robots" content="index, follow" />
-    <meta name="language" content="Spanish" />
-    <meta name="author" content="Oscar Mascareño - Distribuidora Sin Gluten" />
-    <meta name="keywords" content="distribuidora sin gluten argentina, mayorista sin tacc, productos sin gluten mayorista, distribuidora sin gluten Mendoza, mayorista sin gluten Cuyo, proveedor sin tacc San Juan, comprar sin gluten por mayor, alimentos aptos celíacos mayorista" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -59,6 +152,9 @@ const schemaOrg = {
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={image} />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:type" content="image/png" />
     <meta property="og:locale" content="es_AR" />
     <meta property="og:site_name" content="Distribuidora Sin Gluten" />
 
@@ -70,6 +166,8 @@ const schemaOrg = {
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

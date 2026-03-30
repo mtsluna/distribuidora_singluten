@@ -1,8 +1,8 @@
 ---
 const provinces = [
-  { name: "Mendoza", desc: "Capital del Cuyo", color: "bg-[#2D6A4F]", icon: "🍷" },
-  { name: "San Juan", desc: "Sol y sabor", color: "bg-[#2D6A4F]", icon: "☀️" },
-  { name: "San Luis", desc: "Región de Cuyo", color: "bg-[#2D6A4F]", icon: "🏔️" },
+  { name: "Mendoza", desc: "Gran Mendoza, Godoy Cruz, Luján de Cuyo, Maipú y San Rafael", color: "bg-[#2D6A4F]", icon: "🍷" },
+  { name: "San Juan", desc: "Capital, Rawson, Rivadavia y alrededores", color: "bg-[#2D6A4F]", icon: "☀️" },
+  { name: "San Luis", desc: "Capital y Villa Mercedes", color: "bg-[#2D6A4F]", icon: "🏔️" },
 ];
 ---
 
@@ -17,13 +17,13 @@ const provinces = [
           Zona de cobertura
         </span>
         <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1C1C1C] leading-tight mb-6">
-          Llegamos donde<br/>
-          <span class="text-[#2D6A4F]">tu negocio necesita</span>
+          Cobertura mayorista en<br/>
+          <span class="text-[#2D6A4F]">Mendoza, San Juan y San Luis</span>
         </h2>
         <p class="text-lg text-gray-600 leading-relaxed mb-8">
           Nuestra distribución cubre el <strong>corazón del interior argentino</strong>.
-          Mientras la mayoría de los distribuidores opera desde Buenos Aires,
-          nosotros tenemos presencia directa en el corazón de Cuyo.
+          Mientras la mayoría de los distribuidores sin TACC opera desde Buenos Aires,
+          nosotros tenemos presencia directa en Cuyo — con entregas rápidas y sin costos de flete de larga distancia.
         </p>
 
         <!-- Province list -->
@@ -45,9 +45,19 @@ const provinces = [
           ))}
         </div>
 
-        <p class="text-sm text-gray-500 italic">
+        <p class="text-sm text-gray-500 italic mb-8">
           ¿Estás en otra provincia? Consultanos igualmente, evaluamos cada caso.
         </p>
+
+        <a
+          href="#contacto"
+          class="inline-flex items-center gap-2 bg-[#2D6A4F] hover:bg-[#245840] text-white font-semibold px-7 py-3.5 rounded-full transition-all duration-300 hover:scale-105"
+        >
+          Tu provincia está cubierta. Solicitá precios ahora
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg>
+        </a>
       </div>
     </div>
   </div>
