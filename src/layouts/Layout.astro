@@ -9,8 +9,8 @@ interface Props {
 }
 
 const {
-  title = "Distribuidora Sin Gluten | Mayorista Sin TACC | Cuyo, Argentina",
-  description = "Distribuidora mayorista de productos sin gluten y sin TACC en Cuyo. Más de 20 años de experiencia abasteciendo Mendoza, San Juan y San Luis.",
+  title = "Distribuidora Sin Gluten | Mayorista Sin gluten | Cuyo, Argentina",
+  description = "Distribuidora mayorista de productos sin gluten y sin gluten en Cuyo. Más de 10 años de experiencia abasteciendo Mendoza, San Juan y San Luis.",
   image = `https://www.distribuidorasingluten.com.ar/images/logo.png`,
 } = Astro.props;
 
@@ -24,12 +24,12 @@ const schemaOrg = {
       "@type": ["WholesaleStore", "LocalBusiness"],
       "@id": `${SITE_URL}/#business`,
       "name": "Distribuidora Sin Gluten",
-      "alternateName": ["Distribuidora Sin Gluten", "Mayorista Sin TACC Cuyo"],
-      "description": "Distribuidora mayorista de productos sin gluten y sin TACC en la región de Cuyo, Argentina. Más de 20 años de trayectoria. 336 productos certificados por ANMAT en 22 categorías.",
+      "alternateName": ["Distribuidora Sin Gluten", "Mayorista Sin gluten Cuyo"],
+      "description": "Distribuidora mayorista de productos sin gluten y sin gluten en la región de Cuyo, Argentina. Más de 10 años de trayectoria. 300 productos certificados por ANMAT en 22 categorías.",
       "url": SITE_URL,
       "telephone": "+5492615080439",
       "email": "singlutenmendoza@gmail.com",
-      "foundingDate": "2005",
+      "foundingDate": "2015",
       "priceRange": "$$",
       "currenciesAccepted": "ARS",
       "address": {
@@ -60,7 +60,7 @@ const schemaOrg = {
         "name": "Distribuidora Sin Gluten"
       },
       "knowsAbout": [
-        "productos sin gluten", "sin TACC", "alimentos para celíacos",
+        "productos sin gluten", "sin gluten", "alimentos para celíacos",
         "distribución mayorista de alimentos", "normativa ANMAT alimentos sin gluten"
       ],
       "makesOffer": {
@@ -68,7 +68,7 @@ const schemaOrg = {
         "itemOffered": {
           "@type": "Service",
           "name": "Distribución mayorista de productos sin gluten",
-          "description": "Venta y distribución al por mayor de más de 336 productos sin gluten certificados por ANMAT para dietéticas, almacenes, supermercados y gastronomía en Cuyo."
+          "description": "Venta y distribución al por mayor de más de 300 productos sin gluten certificados por ANMAT para dietéticas, almacenes, supermercados y gastronomía en Cuyo."
         },
         "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
         "areaServed": "Cuyo, Argentina"
@@ -77,8 +77,8 @@ const schemaOrg = {
         "@type": "OfferCatalog",
         "@id": `${SITE_URL}/#catalog`,
         "name": "Catálogo de productos sin gluten",
-        "numberOfItems": 336,
-        "description": "336 productos sin gluten y sin TACC certificados por ANMAT, en 22 categorías."
+        "numberOfItems": 300,
+        "description": "300 productos sin gluten y sin gluten certificados por ANMAT, en 22 categorías."
       },
       "logo": {
         "@type": "ImageObject",
@@ -94,7 +94,7 @@ const schemaOrg = {
       "@id": `${SITE_URL}/#website`,
       "url": SITE_URL,
       "name": "Distribuidora Sin Gluten",
-      "description": "Distribuidora mayorista de productos sin gluten y sin TACC en Cuyo, Argentina.",
+      "description": "Distribuidora mayorista de productos sin gluten y sin gluten en Cuyo, Argentina.",
       "publisher": { "@id": `${SITE_URL}/#business` },
       "inLanguage": "es-AR"
     },
@@ -120,7 +120,7 @@ const schemaOrg = {
       "@type": "ItemList",
       "@id": `${SITE_URL}/#category-list`,
       "name": "Categorías de productos sin gluten",
-      "description": "22 categorías de productos sin gluten y sin TACC distribuidos por Distribuidora Sin Gluten en la región de Cuyo.",
+      "description": "22 categorías de productos sin gluten y sin gluten distribuidos por Distribuidora Sin Gluten en la región de Cuyo.",
       "numberOfItems": categories.length,
       "itemListOrder": "https://schema.org/ItemListOrderAscending",
       "itemListElement": categories.map((cat, i) => ({
