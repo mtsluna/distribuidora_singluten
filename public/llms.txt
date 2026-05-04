@@ -38,8 +38,5 @@ R: Sí. Los 300 productos del catálogo cuentan con certificación ANMAT como li
 P: ¿Realizan envíos a toda Argentina o solo a Cuyo?
 R: Distribución directa en Mendoza, San Juan y San Luis. Otras provincias se evalúan caso a caso.
 
-P: ¿Qué diferencia hay entre sin gluten y sin gluten?
-R: "Sin gluten" es el término argentino para libre de Trigo, Avena, Cebada y Centeno, equivalente a "gluten free".
-
 ## Sitio web
 https://www.distribuidorasingluten.com.ar
