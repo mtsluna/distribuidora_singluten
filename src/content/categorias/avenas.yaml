@@ -1,0 +1,56 @@
+intro: |
+  La avena es el caso más delicado de todo el catálogo y merece una explicación aparte. En
+  Argentina la sigla TACC incluye la avena junto al trigo, la cebada y el centeno, así que
+  para el marco local no alcanza con que un producto tenga avena "pura": necesita estar
+  certificado como libre de gluten para poder venderse a público celíaco.
+
+secciones:
+  - titulo: Por qué la avena está en discusión
+    cuerpo: |
+      La avena no contiene gliadina, que es la proteína del trigo que dispara la reacción
+      celíaca, sino avenina. Una parte de las personas celíacas la tolera y otra no, y a eso
+      se suma un problema práctico: la avena se cultiva en rotación con trigo y se procesa
+      en los mismos molinos, de modo que la avena convencional suele llegar contaminada
+      aunque su composición sea inocua.
+
+      Por eso una avena apta requiere trazabilidad desde el cultivo, cosecha separada,
+      transporte dedicado y molienda propia. Es un proceso caro, y ahí está la diferencia de
+      precio con la avena de góndola común.
+
+  - titulo: Cómo venderla sin generar un problema
+    cuerpo: |
+      Es la categoría donde más importa lo que dice el comercio, no sólo lo que dice el
+      envase. La recomendación honesta es vender la avena certificada como lo que es, un
+      producto apto según el rótulo oficial, y sugerir a quien la consume por primera vez
+      que lo converse con su médico o nutricionista.
+
+      Del lado del stock, conviene mantenerla separada de cualquier cereal a granel del
+      local. Y como es un producto con grasa natural, se enrancia: rotación por fecha más
+      atenta que con un almidón.
+
+  - titulo: "Qué comercios pueden vender avena sin gluten"
+    cuerpo: |
+      A las dietéticas les da un producto de consulta constante, porque es lo primero que
+      pregunta quien quiere desayunar distinto. A las que trabajan con nutricionistas les
+      funciona especialmente bien, ya que la recomendación profesional acompaña la venta.
+
+      También entra en la compra de quien prepara granolas, budines o barras por su cuenta,
+      así que suele salir junto con harinas y premezclas.
+
+  - titulo: "Certificación: la condición que vuelve vendible a la avena"
+    cuerpo: |
+      Toda la avena del catálogo está certificada por ANMAT y figura en el Listado Oficial
+      de Alimentos Libres de Gluten, con el límite de 10 mg por kilo. Es la categoría donde
+      esa certificación no es un plus sino la condición que la vuelve vendible: sin ella, en
+      Argentina la avena no es un producto sin TACC.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - granolas
+  - harinas-y-premezclas
+  - barras-de-cereal-proteicas
+  - leches
+  - budines

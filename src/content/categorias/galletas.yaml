@@ -1,0 +1,69 @@
+# Galletas sin gluten — contenido editorial de la categoría.
+# marcas / presentaciones / minimoCompra: pendientes de carga por el cliente.
+
+intro: |
+  Las galletas son, por lejos, la categoría más grande del catálogo, y no es casualidad:
+  es la que más rota en góndola porque cubre desayuno, colación y merienda con un ticket
+  bajo. Bajo un mismo rótulo conviven en realidad dos negocios distintos. Las galletas
+  dulces compiten de igual a igual con la galletita tradicional y muchas veces las compra
+  toda la familia, no sólo el celíaco. Las saladas y las de agua, en cambio, son compra
+  de necesidad: quien lleva un paquete vuelve a buscarlo la semana siguiente, y si no lo
+  encuentra en tu comercio lo busca en otro.
+
+secciones:
+  - titulo: Por qué una galleta sin gluten se comporta distinto
+    cuerpo: |
+      El gluten es la red proteica que le da estructura y elasticidad a una masa. Sin él,
+      la galleta se arma con una base de harina de arroz, almidón de maíz y fécula de
+      mandioca, sostenida por hidrocoloides como la goma xántica o el psyllium. El
+      resultado es una pieza más quebradiza y bastante más sensible a la humedad que su
+      equivalente con trigo.
+
+      Eso tiene una consecuencia comercial concreta: la galleta sin gluten se rompe más en
+      el transporte y en la exhibición. Vale la pena revisar el bulto al recibirlo y no
+      apilar cajas por encima de lo que indica el packaging, porque el paquete roto no se
+      vende aunque el producto esté perfecto.
+
+  - titulo: Cómo conservarlas y reponerlas
+    cuerpo: |
+      La humedad es el enemigo. Una galleta sin gluten expuesta al ambiente pierde
+      textura mucho más rápido, así que conviene guardarla lejos de heladeras, piletas y
+      del piso, y no abrir el pack de exhibición hasta que se necesite. El clima seco de
+      Cuyo juega a favor acá, sobre todo comparado con el litoral.
+
+      Como la rotación es alta, el error más común no es el vencimiento sino el quiebre de
+      stock: dos o tres códigos que se agotan a mitad de semana y dejan la góndola sin
+      opción salada. Si tenés espacio limitado, conviene profundizar en pocos códigos de
+      alta salida antes que abrir mucho surtido.
+
+  - titulo: A qué comercios les sirve esta categoría
+    cuerpo: |
+      A las dietéticas les conviene surtido amplio: el cliente celíaco recorre el local
+      buscando variedad y compara entre negocios por cantidad de opciones. Al almacén de
+      barrio y al autoservicio les rinde más lo contrario, dos o tres códigos seguros que
+      no se agoten nunca, uno dulce y uno salado como piso.
+
+      Los supermercados suelen armar un sector sin TACC unificado, donde las galletas
+      funcionan como producto ancla que atrae al resto de la compra. Y en cafeterías y
+      confiterías el formato individual resuelve el acompañamiento del café sin obligar a
+      abrir un paquete familiar.
+
+  - titulo: Certificación y rotulado
+    cuerpo: |
+      Todas las galletas que distribuimos están certificadas por ANMAT como libres de
+      gluten y llevan el símbolo obligatorio de la espiga de trigo barrada junto a la
+      leyenda "Sin TACC". En Argentina el límite es de 10 mg de gluten por kilo, más
+      exigente que el estándar internacional de 20, y el producto tiene que figurar en el
+      Listado Oficial de Alimentos Libres de Gluten que exige la Ley 26.588.
+
+marcas: null            # TODO cliente: qué marcas de galletas se trabajan
+presentaciones: null    # TODO cliente: bultos, unidades por caja, gramajes
+minimoCompra: null      # TODO cliente: mínimo de compra de la categoría
+
+relacionadas:
+  - tostadas
+  - alfajores
+  - budines
+  - palmeritas-grisines-y-rosquitas
+  - snacks
+  - vainillas-y-masas-secas

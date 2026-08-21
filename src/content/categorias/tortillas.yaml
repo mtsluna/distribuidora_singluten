@@ -1,0 +1,57 @@
+intro: |
+  La tortilla es la categoría más nueva y más chica del catálogo, y también la que más
+  rápido cambia el menú de un local. Es el formato que permite armar un wrap, un taco o un
+  sándwich enrollado sin pan, y para una cocina sin gluten resuelve algo que el pan de
+  molde no siempre logra: que el plato se sostenga sin desarmarse.
+
+secciones:
+  - titulo: Qué tortilla es apta y cuál no
+    cuerpo: |
+      Conviene despejar el equívoco de nombre. Acá no hablamos de la tortilla de papa ni de
+      la tortilla de rescoldo, sino del disco fino tipo mexicano que se usa para enrollar.
+      De ese hay dos familias: la de maíz, que es naturalmente libre de gluten, y la de
+      harina de trigo, que no lo es en absoluto y es la más vendida en góndola.
+
+      Por eso la categoría exige leer el rótulo con más atención que casi ninguna otra: los
+      dos productos se venden en el mismo formato, en el mismo estante y con packaging muy
+      parecido. La versión apta se elabora con maíz, arroz o mandioca, y suele llevar
+      hidrocoloides para que el disco no se quiebre al doblarlo.
+
+  - titulo: El detalle que define si funciona
+    cuerpo: |
+      Una tortilla sin gluten fría se agrieta al enrollarla. Es el reclamo número uno de la
+      categoría y casi siempre es un problema de manejo, no de producto: hay que calentarla
+      unos segundos en sartén seca o plancha antes de armar el wrap, y ahí recupera
+      flexibilidad por completo.
+
+      El otro punto es la conservación. Al no tener gluten reseca antes, así que el paquete
+      abierto va a heladera bien cerrado, y para stock largo el freezer funciona muy bien
+      separando los discos.
+
+  - titulo: A qué cocinas les sirve
+    cuerpo: |
+      A restaurantes, bares y locales de comida rápida les habilita toda la línea de wraps y
+      tacos en versión apta, que es un plato de preparación rápida y buen margen. A los
+      servicios de catering les resuelve el bocado que se come de pie sin necesidad de pan.
+
+      En dietéticas es un producto de nicho pero con cliente muy específico: quien cocina en
+      casa y quiere variar del pan, y quien arma viandas para llevar al trabajo.
+
+  - titulo: Certificación ANMAT de las tortillas sin gluten
+    cuerpo: |
+      Las tortillas del catálogo están certificadas por ANMAT como libres de gluten y llevan
+      la espiga de trigo barrada. Es la garantía que separa este producto del disco de trigo
+      con el que convive en góndola, y también la que cubre el riesgo de la línea de
+      producción: muchas plantas hacen las dos versiones y sin certificación no hay forma de
+      saber cuál se elaboró primero.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - panes-bio
+  - harinas-y-premezclas
+  - rebozador
+  - condimentos
+  - tostadas

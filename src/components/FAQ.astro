@@ -1,4 +1,6 @@
 ---
+import { totalProductos } from '../data/categories.ts';
+
 const faqs = [
   {
     q: "¿Cuáles son los requisitos para convertirse en cliente mayorista?",
@@ -6,7 +8,7 @@ const faqs = [
   },
   {
     q: "¿Todos sus productos están certificados como libres de gluten por ANMAT?",
-    a: "Sí. Los 300 productos de nuestro catálogo cuentan con la certificación de ANMAT (Administración Nacional de Medicamentos, Alimentos y Tecnología Médica) como libres de gluten. Todos llevan el símbolo de espiga de trigo barrada obligatorio en Argentina.",
+    a: `Sí. Los ${totalProductos} productos de nuestro catálogo cuentan con la certificación de ANMAT (Administración Nacional de Medicamentos, Alimentos y Tecnología Médica) como libres de gluten. Todos llevan el símbolo de espiga de trigo barrada obligatorio en Argentina.`,
   },
   {
     q: "¿Realizan envíos a toda Argentina o solo a Cuyo?",

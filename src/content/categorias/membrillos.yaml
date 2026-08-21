@@ -1,0 +1,52 @@
+intro: |
+  El dulce de membrillo es un producto profundamente argentino y una de esas cosas que
+  nadie asocia con el gluten hasta que le toca revisarlo. Es fruta, azúcar y cocción, así
+  que en su forma tradicional es apto. El problema aparece en las versiones industriales de
+  bajo costo y en cómo se manipula en el comercio, que es donde se pierde la aptitud.
+
+secciones:
+  - titulo: Dulce de membrillo, rasgos de la categoría
+    cuerpo: |
+      Se distinguen básicamente dos calidades. El dulce con alto porcentaje de fruta, más
+      firme y de color oscuro, que es el que se corta en tajada y aguanta el peso del queso
+      encima. Y las versiones con más glucosa y almidón, más blandas y claras, más baratas
+      y con textura gomosa.
+
+      Ese almidón es justamente el punto a mirar: cuando no se declara el origen puede ser
+      de trigo. Por eso el membrillo certificado no es una redundancia, aunque la receta
+      base sea naturalmente sin gluten.
+
+  - titulo: El punto crítico está en el mostrador
+    cuerpo: |
+      Casi todo el riesgo de esta categoría no viene de la fábrica sino del comercio. El
+      dulce en pan, cortado con el mismo cuchillo que antes cortó una tarta o apoyado en la
+      tabla donde se cortó pan, deja de ser apto en el acto.
+
+      La recomendación para un comercio que vende a público celíaco es trabajar el formato
+      envasado en lugar del pan a granel, o tener tabla y cuchillo exclusivos. Es un cambio
+      de hábito chico que evita el reclamo más común de la categoría.
+
+  - titulo: "Comercios que venden dulce de membrillo sin gluten"
+    cuerpo: |
+      A almacenes, fiambrerías y dietéticas les da un clásico de alta rotación,
+      especialmente en los meses fríos, y combina de forma directa con la venta de queso.
+      En gastronomía aparece en el postre vigilante y en tablas de picada, donde tener una
+      versión certificada evita tener que explicarle al comensal que no puede.
+
+  - titulo: "Certificación ANMAT del dulce de membrillo"
+    cuerpo: |
+      Todos los membrillos del catálogo están certificados por ANMAT como libres de gluten
+      y llevan la espiga de trigo barrada. Es una categoría donde conviene apoyarse en el
+      rótulo: la suposición de que "el dulce de membrillo siempre es apto" es de las que
+      más seguido termina mal.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - dulces-y-mermeladas
+  - tostadas
+  - galletas
+  - tapas-de-alfajor
+  - budines

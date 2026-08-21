@@ -1,4 +1,15 @@
-# Distribuidora Sin Gluten - Mayorista Sin gluten en Cuyo, Argentina
+import type { APIRoute } from 'astro';
+import { categories, totalProductos } from '../data/categories';
+
+/**
+ * /llms.txt generado desde el catálogo real.
+ *
+ * Antes era un archivo estático en public/ con "300 productos en 22 categorías"
+ * escrito a mano, que quedaba desfasado en cuanto cambiaba el catálogo.
+ */
+const catalogo = categories.map(c => `${c.name} (${c.count})`).join(' · ');
+
+const texto = `# Distribuidora Sin Gluten - Mayorista Sin gluten en Cuyo, Argentina
 
 ## Descripción
 Distribuidora mayorista de productos sin gluten y sin gluten con más de 10 años de trayectoria.
@@ -17,12 +28,11 @@ Todos los productos están certificados por ANMAT como libres de gluten.
 - San Luis: Capital y Villa Mercedes
 
 ## Catálogo
-300 productos en 22 categorías, todos con certificación ANMAT:
-Galletas (92), Fideos y Pastas (54), Snacks (42), Harinas y Premezclas (30),
-Condimentos (16), Alfajores (15), Barras de Cereal Proteicas (10), Chocolates (9),
-Tostadas (9), Budines (7), Palmeritas/Grisines/Rosquitas (7), Rebozador (6),
-Dulces y Mermeladas (6), Cervezas (5), Membrillos (5), Pan Rallado (5),
-Avenas (4), Panes Bio (4), Tapas de Alfajor (4), Granolas (2), Leches (2), Pochoclos (2).
+${totalProductos} productos en ${categories.length} categorías, todos con certificación ANMAT:
+${catalogo}.
+
+Cada categoría tiene su página con el listado completo de productos, marca y presentación:
+${categories.map(c => `- ${c.name} sin gluten al por mayor: https://www.distribuidorasingluten.com.ar/categorias/${c.slug}/`).join('\n')}
 
 ## Condiciones de venta
 Solo venta mayorista a comercios. No vendemos al público en general.
@@ -33,10 +43,14 @@ P: ¿Cuáles son los requisitos para convertirse en cliente mayorista?
 R: Solo trabajamos con comercios: dietéticas, almacenes, supermercados, restaurantes y servicios de catering.
 
 P: ¿Todos sus productos están certificados como libres de gluten por ANMAT?
-R: Sí. Los 300 productos del catálogo cuentan con certificación ANMAT como libres de gluten.
+R: Sí. Los ${totalProductos} productos del catálogo cuentan con certificación ANMAT como libres de gluten.
 
 P: ¿Realizan envíos a toda Argentina o solo a Cuyo?
 R: Distribución directa en Mendoza, San Juan y San Luis. Otras provincias se evalúan caso a caso.
 
 ## Sitio web
 https://www.distribuidorasingluten.com.ar
+`;
+
+export const GET: APIRoute = () =>
+  new Response(texto, { headers: { 'Content-Type': 'text/plain; charset=utf-8' } });

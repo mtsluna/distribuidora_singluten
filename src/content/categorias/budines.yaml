@@ -1,0 +1,55 @@
+intro: |
+  El budín ocupa un lugar preciso en la mesa argentina: es lo que se corta a la tarde con
+  el mate. Para una persona celíaca es también uno de los productos más difíciles de
+  reemplazar bien, porque sin gluten una masa esponjosa tiende a salir apelmazada o seca.
+  Los que están bien logrados se venden solos y fidelizan rápido.
+
+secciones:
+  - titulo: Por qué cuesta lograr un buen budín sin gluten
+    cuerpo: |
+      La esponjosidad de un budín común viene de la red de gluten que atrapa el aire de la
+      leudante. Sin esa red hay que reemplazarla con almidones, hidrocoloides y más
+      materia grasa, y ese último punto es el que define el resultado: un budín sin gluten
+      suele tener más aceite o manteca que su equivalente con trigo, porque es lo que
+      mantiene la miga húmeda.
+
+      La contracara es que esa misma grasa acorta la vida útil y hace al producto más
+      sensible al calor. Es una categoría donde conviene pedir con frecuencia antes que
+      acumular stock.
+
+  - titulo: Formato individual o familiar
+    cuerpo: |
+      Son dos negocios distintos. El budín familiar, en pan entero, lo compra la casa donde
+      hay un celíaco y se consume durante varios días; es compra planificada y de ticket
+      más alto. El individual, en cambio, es de impulso puro y se vende al lado de la caja
+      o en el mostrador de una cafetería.
+
+      Si el local tiene poco espacio conviene definirse por uno. El error frecuente es
+      tener uno de cada tipo: ninguno rota lo suficiente y los dos llegan a fecha.
+
+  - titulo: "Qué comercios venden budín sin gluten"
+    cuerpo: |
+      A cafeterías, bares y confiterías les resuelve la vitrina dulce sin gluten con un
+      producto que se ve bien en porción. A las dietéticas les funciona como parte de la
+      compra semanal de merienda. Y a los almacenes de barrio les da un producto de
+      ticket medio que el cliente celíaco hoy tiene que ir a buscar al centro.
+
+  - titulo: "Certificación ANMAT frente a la elaboración casera"
+    cuerpo: |
+      Todos los budines del catálogo están certificados por ANMAT como libres de gluten y
+      llevan la espiga de trigo barrada. Es una categoría donde circula mucha elaboración
+      casera ofrecida como apta: el producto certificado tiene registro, trazabilidad y
+      análisis de laboratorio detrás, y eso es lo que un comercio necesita para poder
+      vender sin asumir el riesgo.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - galletas
+  - alfajores
+  - chocolates
+  - panes-bio
+  - tostadas
+  - vainillas-y-masas-secas

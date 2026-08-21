@@ -1,0 +1,57 @@
+intro: |
+  Esta categoría junta tres productos de panadería que tienen algo en común: son los que
+  uno pide por unidad en el mostrador y que una persona celíaca directamente no puede
+  comprar en ninguna panadería de barrio. Palmeritas, grisines y rosquitas son de las
+  ausencias que más se notan, y por eso tenerlos disponibles genera una fidelidad
+  desproporcionada respecto de lo que facturan.
+
+secciones:
+  - titulo: Tres productos, tres lógicas
+    cuerpo: |
+      La palmerita es hojaldre, y el hojaldre sin gluten es de lo más difícil de lograr
+      porque depende del laminado de una masa que sin red proteica no estira. Es dulce, de
+      impulso, y compite con la vitrina de la confitería.
+
+      El grisín es salado y va con picada, con fiambre o con el plato de un restaurante:
+      es el producto que reemplaza al pan de mesa. La rosquita queda en el medio, más
+      cerca de la galleta dulce, y se vende para la merienda de los chicos. Aunque
+      compartan categoría, cada uno tiene su canal y conviene no comprarlos como un bloque
+      único.
+
+  - titulo: Fragilidad y presentación
+    cuerpo: |
+      Los tres son quebradizos y los tres se venden por aspecto. El grisín partido en la
+      caja no se vende, y la palmerita que perdió las capas tampoco. Es una categoría
+      donde el bulto conviene revisarlo al recibirlo y donde el apilado importa más que en
+      el resto del catálogo.
+
+      También son muy sensibles a la humedad ambiente: el grisín pierde crocante en pocas
+      horas si el paquete queda abierto, así que en gastronomía el formato individual
+      rinde más que el paquete grande, aunque el costo por unidad sea mayor.
+
+  - titulo: "Qué canal pide grisines y palmeritas sin gluten"
+    cuerpo: |
+      A restaurantes y bares el grisín les resuelve el pan de mesa sin gluten, que es lo
+      primero que falta cuando llega un comensal celíaco. A las confiterías y cafeterías la
+      palmerita les completa la vitrina. Y a las dietéticas la rosquita les suma un
+      producto de merienda infantil, que es un segmento con demanda constante y poca
+      oferta.
+
+  - titulo: "Certificación: por qué hace falta una planta separada"
+    cuerpo: |
+      Todo lo de esta categoría está certificado por ANMAT como libre de gluten y figura en
+      el Listado Oficial. Es especialmente relevante acá porque son productos que casi
+      siempre se elaboran en panaderías con harina de trigo en el ambiente: la versión
+      certificada se produce en instalaciones separadas, que es la única manera de que un
+      hojaldre o un grisín sean realmente aptos.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - galletas
+  - snacks
+  - tostadas
+  - pochoclos
+  - budines

@@ -1,0 +1,56 @@
+intro: |
+  Las barras son la categoría que menos se parece al resto del catálogo, porque su cliente
+  principal no es celíaco. Es gente que entrena, que trabaja muchas horas afuera o que
+  necesita resolver una colación sin cocinar, y que compra la barra por proteína o por
+  practicidad. Que además sea sin gluten es un beneficio secundario, y eso amplía mucho el
+  público al que le podés vender.
+
+secciones:
+  - titulo: Qué las hace aptas y qué hay que mirar
+    cuerpo: |
+      El punto crítico de una barra es el cereal de base. La avena, que es el ingrediente
+      natural de la categoría, está incluida en la sigla TACC en Argentina, así que una
+      barra apta o usa avena con trazabilidad y molienda certificadas, o directamente la
+      reemplaza por arroz inflado, quinoa, amaranto o mijo.
+
+      El segundo punto es el ligante y la cobertura. Los jarabes de malta provienen de
+      cebada y aparecen seguido en barras convencionales; en la versión sin gluten se
+      sustituyen por miel, jarabe de arroz o de agave. Son cambios que también modifican
+      el sabor y la textura, así que conviene probar antes de comprometer volumen.
+
+  - titulo: Cómo se vende
+    cuerpo: |
+      Es la categoría del catálogo con mayor componente de impulso deportivo: se vende
+      donde la gente entrena o pasa, no donde hace la compra semanal. La ubicación pesa
+      más que el surtido, y una caja de exhibición en el mostrador rinde bastante más que
+      un lugar en estantería.
+
+      La vida útil es larga y el producto no se rompe, así que el riesgo de stock es bajo.
+      El calor sí es un problema real en verano cuando la barra tiene cobertura de
+      chocolate: conviene reservar las variedades bañadas para los meses frescos si el
+      local no tiene ambiente climatizado.
+
+  - titulo: "Dónde encaja la barra proteica sin gluten"
+    cuerpo: |
+      A gimnasios, boxes de crossfit y suplementerías les encaja de forma natural y sin
+      necesidad de explicar el producto. A las dietéticas les suma un cliente que no
+      venía por celiaquía. Y a kioscos cerca de universidades, oficinas o centros médicos
+      les funciona como opción de colación rápida.
+
+  - titulo: "Certificación: leer el rótulo, no el frente del envase"
+    cuerpo: |
+      Todas las barras del catálogo están certificadas por ANMAT como libres de gluten y
+      llevan la espiga barrada. En esta categoría es especialmente importante leer el
+      rótulo y no la promesa del frente del envase: "alto en proteínas" o "natural" no
+      dicen nada sobre gluten, y muchas barras saludables llevan avena convencional.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - granolas
+  - avenas
+  - chocolates
+  - snacks
+  - leches

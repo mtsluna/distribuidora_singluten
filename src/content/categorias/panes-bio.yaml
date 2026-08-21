@@ -1,0 +1,56 @@
+intro: |
+  El pan es lo que más se extraña y lo más difícil de resolver bien. A diferencia del resto
+  del catálogo, que es todo producto seco y de larga vida, el pan sin gluten es un producto
+  fresco: tiene fecha corta, necesita cuidado de temperatura y obliga a pensar la compra en
+  función de la rotación real del local y no del espacio disponible.
+
+secciones:
+  - titulo: Por qué el pan sin gluten dura menos
+    cuerpo: |
+      Sin red de gluten la miga se sostiene con almidones e hidrocoloides, y los almidones
+      retrogradan: se reordenan y expulsan agua. Ese proceso, que en un pan de trigo lleva
+      días, en un pan sin gluten empieza a las pocas horas. Por eso endurece rápido y por
+      eso muchos productos vienen en rebanadas y envasados de forma hermética.
+
+      La consecuencia práctica es que el freezer no es opcional sino parte del producto.
+      Congelado en rebanadas y tostado directo desde el frío, un pan sin gluten se comporta
+      mucho mejor que a temperatura ambiente al segundo día. Conviene que el comercio lo
+      explique en la venta.
+
+  - titulo: Manejo de stock y cadena de frío
+    cuerpo: |
+      Es la categoría que menos tolera el pedido grande. La compra tiene que calzar con la
+      salida semanal, porque acá el sobrestock no se guarda: se pierde o se remata.
+
+      Si el local tiene freezer, el panorama cambia por completo y permite trabajar con
+      volumen sin riesgo, siempre que no se rompa la cadena. Un pan que se descongela y se
+      vuelve a congelar queda con textura arenosa y el cliente no repite la compra.
+
+  - titulo: "Qué comercios pueden trabajar pan sin gluten"
+    cuerpo: |
+      A dietéticas con freezer les da el producto más buscado del rubro y el que más tráfico
+      genera: quien viene por pan termina llevando el resto de la compra. A cafeterías y
+      bares les habilita tostados y sándwiches sin gluten, que es la consulta más frecuente
+      del mediodía.
+
+      A hoteles y hosterías les resuelve el desayuno, y ahí el formato congelado en
+      rebanadas es el que mejor funciona porque se usa sólo lo que se necesita cada mañana.
+
+  - titulo: "Certificación ANMAT en panificados sin gluten"
+    cuerpo: |
+      Todos los panes del catálogo están certificados por ANMAT como libres de gluten y
+      figuran en el Listado Oficial. En panificados la certificación implica además
+      instalaciones separadas de cualquier línea con trigo, porque la harina en suspensión
+      dentro de una panadería contamina masas que nunca la tocaron.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - tostadas
+  - pan-rallado
+  - rebozador
+  - harinas-y-premezclas
+  - dulces-y-mermeladas
+  - tortillas

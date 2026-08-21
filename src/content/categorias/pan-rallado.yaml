@@ -1,0 +1,55 @@
+intro: |
+  El pan rallado sin gluten es un producto de uso diario que casi nunca está en la lista de
+  compras hasta que falta. Sirve para rebozar, para ligar un relleno, para gratinar y para
+  espesar, y en una cocina sin gluten no tiene sustituto directo: la miga de pan común está
+  descartada y la harina sola no cumple la misma función.
+
+secciones:
+  - titulo: De qué se hace cuando no hay trigo
+    cuerpo: |
+      El pan rallado convencional es literalmente pan de trigo molido y secado. La versión
+      sin gluten se arma con pan sin gluten deshidratado y molido, o directamente con
+      harina de maíz o de arroz tostada, según el fabricante.
+
+      Eso cambia dos cosas en la cocina. Absorbe menos humedad que el de trigo, así que en
+      albóndigas o rellenos hay que usar algo más de cantidad para lograr la misma ligazón.
+      Y tiene una textura más arenosa, lo que da una corteza distinta: más crocante al
+      principio, pero que se ablanda antes si el producto queda esperando.
+
+  - titulo: Cómo se guarda y por qué se contamina tan fácil
+    cuerpo: |
+      Es un producto en polvo, y el polvo es lo que peor se comporta en un depósito
+      compartido. Una bolsa de pan rallado sin gluten abierta cerca de donde se fracciona
+      pan rallado común se contamina por aire, sin que nadie toque nada.
+
+      La regla es guardarlo cerrado, en envase original y en estantería separada, siempre
+      por encima de los productos con trigo. Y una vez abierto, en recipiente hermético:
+      además de la contaminación, toma humedad y se apelmaza rápido.
+
+  - titulo: "Quién compra pan rallado sin gluten al por mayor"
+    cuerpo: |
+      A rotiserías y restaurantes les completa el kit de fritura junto con el rebozador. A
+      las dietéticas les funciona como parte de la compra de insumos de quien cocina en
+      casa, casi siempre en el mismo ticket que las harinas.
+
+      También aparece en fiambrerías y casas de comidas que arman milanesas o rellenos para
+      llevar, donde tener una línea sin gluten permite ofrecer una bandeja apta sin cambiar
+      todo el proceso.
+
+  - titulo: "Certificación ANMAT del pan rallado sin gluten"
+    cuerpo: |
+      Todo el pan rallado del catálogo está certificado por ANMAT como libre de gluten y
+      figura en el Listado Oficial. Es un caso donde el nombre del producto juega en contra:
+      "pan rallado" suena a trigo por definición, y por eso conviene que en la góndola el
+      rótulo con la espiga barrada quede bien visible.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - rebozador
+  - harinas-y-premezclas
+  - condimentos
+  - panes-bio
+  - fideos-y-pastas

@@ -1,0 +1,53 @@
+intro: |
+  El pochoclo es maíz, y el maíz no tiene gluten. Sin embargo es una de las categorías donde
+  más seguido falla un producto, y el motivo no está en el grano sino en todo lo que viene
+  después: el saborizante, la línea de producción y, en el caso del pochoclo para microondas,
+  la propia bolsa.
+
+secciones:
+  - titulo: Dónde está el riesgo real
+    cuerpo: |
+      El pochoclo dulce con baño de caramelo y el salado con saborizante de queso son los dos
+      formatos más vendidos y los dos que más ingredientes agregados tienen. Los polvos de
+      queso y los saborizantes tipo manteca usan a veces vehículos con derivados de trigo, y
+      la malta de cebada aparece en algunas versiones acarameladas.
+
+      A eso se suma la línea compartida: una planta que produce snacks de trigo y después
+      pochoclo arrastra residuo. Por eso, igual que en snacks, lo que hace apto al producto es
+      la certificación del terminado, no la inocencia del maíz.
+
+  - titulo: Cómo se comporta en el local
+    cuerpo: |
+      Es el producto con peor relación entre volumen y peso de todo el catálogo: llena el
+      depósito y factura poco por metro cúbico. Conviene pedirlo ajustado a la salida y
+      tenerlo en góndola alta, donde el volumen juega a favor visualmente.
+
+      La humedad lo arruina rápido: un pochoclo que perdió crocante es invendible. Paquete
+      cerrado, lejos de zonas húmedas, y rotación pareja.
+
+  - titulo: "Dónde vender pochoclo sin gluten"
+    cuerpo: |
+      A kioscos y autoservicios les da un producto de impulso barato y sin competencia sin
+      gluten en la zona. A cervecerías y bares les sirve como picoteo de mesa apto, que
+      combina bien con la categoría de cervezas.
+
+      También funciona muy bien para cumpleaños infantiles y eventos, que es donde el chico
+      celíaco más seguido queda afuera de la mesa dulce.
+
+  - titulo: "Certificación ANMAT del pochoclo sin gluten"
+    cuerpo: |
+      Los pochoclos del catálogo están certificados por ANMAT como libres de gluten y llevan
+      la espiga de trigo barrada. Vale repetirlo porque la intuición juega en contra: "es
+      maíz, es apto" es el razonamiento que más seguido lleva a un celíaco a consumir un
+      producto contaminado.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - snacks
+  - palmeritas-grisines-y-rosquitas
+  - cervezas
+  - galletas
+  - barras-de-cereal-proteicas

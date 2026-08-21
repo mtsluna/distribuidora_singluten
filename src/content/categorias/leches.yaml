@@ -1,0 +1,53 @@
+intro: |
+  Las leches del catálogo son bebidas vegetales, y cubren dos necesidades que muy seguido
+  van juntas. Un porcentaje alto de personas celíacas recién diagnosticadas tiene además
+  intolerancia a la lactosa, porque el daño en el intestino afecta la enzima que la procesa.
+  Por eso la leche vegetal aparece en la misma compra que el resto del surtido sin gluten,
+  aunque sean condiciones distintas.
+
+secciones:
+  - titulo: Qué mirar en una bebida vegetal
+    cuerpo: |
+      Las de almendra, coco, arroz y castañas no tienen gluten en su base. Las de avena, en
+      cambio, requieren avena certificada, porque en Argentina la avena entra en la sigla
+      TACC. Es la trampa más común de la categoría: la leche de avena creció muchísimo en los
+      últimos años y la mayoría de las que están en góndola no son aptas.
+
+      El otro punto son los agregados. Los extractos de malta, algunos espesantes y los
+      saborizantes tipo cereal pueden aportar gluten a una bebida cuya base era inocua.
+
+  - titulo: Cómo se guarda
+    cuerpo: |
+      Casi todo el surtido es larga vida en envase tipo tetra, así que se almacena a
+      temperatura ambiente y ocupa poco. Es de las categorías más fáciles de manejar del
+      catálogo: no se rompe, no se enrancia rápido y no necesita frío hasta abrirse.
+
+      Una vez abierto sí va a heladera y dura pocos días. Vale mencionarlo en la venta porque
+      quien viene de la leche de vaca larga vida suele asumir que se comporta igual, y no.
+
+  - titulo: "Qué comercios trabajan leches vegetales"
+    cuerpo: |
+      A las dietéticas es un producto central y de compra semanal. A cafeterías les resuelve
+      el café con leche vegetal, que pasó de pedido raro a pedido diario, y en la práctica es
+      lo que más rápido justifica tener la categoría.
+
+      A almacenes y autoservicios les funciona por volumen si hay público que ya la consume,
+      y combina de forma directa con granolas y barras en la misma góndola.
+
+  - titulo: "Certificación ANMAT en bebidas vegetales"
+    cuerpo: |
+      Las leches del catálogo están certificadas por ANMAT como libres de gluten y figuran en
+      el Listado Oficial. Como buena parte del mercado de bebidas vegetales se comunica desde
+      lo saludable y no desde la aptitud, la certificación es lo único que permite venderlas a
+      público celíaco con respaldo.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - granolas
+  - avenas
+  - barras-de-cereal-proteicas
+  - chocolates
+  - budines

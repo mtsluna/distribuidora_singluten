@@ -1,0 +1,56 @@
+intro: |
+  El rebozador es un insumo silencioso pero decisivo: es lo que permite que una milanesa,
+  un pollo o una verdura rebozada existan en una mesa sin gluten. Y es también el producto
+  que más seguido arruina un plato que hasta ese momento estaba bien resuelto, porque el
+  rebozador común se hace con pan de trigo y casi nadie lo tiene presente al armar la
+  cocina.
+
+secciones:
+  - titulo: Rebozador y pan rallado no son intercambiables
+    cuerpo: |
+      Se confunden todo el tiempo. El pan rallado es pan molido, y punto. El rebozador
+      suele ser una mezcla preparada, con condimentos, colorante y a veces harinas o
+      almidones que le dan más adherencia y color dorado. Uno reemplaza al otro sólo a
+      medias.
+
+      En la versión sin gluten la base deja de ser pan de trigo y pasa a ser harina de
+      maíz, de arroz o pan sin gluten molido. Eso cambia el comportamiento en la sartén:
+      dora más rápido y se quema con más facilidad, así que conviene bajar la temperatura
+      del aceite respecto de lo que se usa con rebozador común.
+
+  - titulo: El punto crítico es la fritura
+    cuerpo: |
+      No alcanza con comprar rebozador apto. Si la milanesa sin gluten se fríe en el mismo
+      aceite donde antes se frió una milanesa de trigo, el plato queda contaminado. El
+      aceite retiene partículas y las transfiere, y es el error más común en rotiserías y
+      cocinas de restaurante.
+
+      Lo mismo con la freidora, la placa del horno y las pinzas. Los locales que trabajan
+      bien la categoría separan el aceite o cocinan la porción sin gluten primero, antes
+      de que empiece el servicio con trigo.
+
+  - titulo: "Cocinas que necesitan rebozador sin gluten"
+    cuerpo: |
+      A rotiserías, restaurantes y servicios de catering les habilita todo un sector del
+      menú que de otro modo queda vedado. A las dietéticas y almacenes les funciona como
+      complemento de la compra de harinas y premezclas, porque quien cocina en casa lo
+      necesita para el mismo tipo de plato.
+
+  - titulo: "Certificación ANMAT del rebozador sin gluten"
+    cuerpo: |
+      Todo el rebozador del catálogo está certificado por ANMAT como libre de gluten y
+      lleva la espiga barrada. Vale remarcarlo porque es un producto que se compra por
+      costumbre y sin mirar rótulo: el rebozador es, junto con el caldo, el ingrediente que
+      con más frecuencia rompe una comida que iba a ser apta.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - pan-rallado
+  - harinas-y-premezclas
+  - condimentos
+  - fideos-y-pastas
+  - panes-bio
+  - tortillas

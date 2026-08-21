@@ -1,0 +1,53 @@
+intro: |
+  Las tostadas resuelven algo que el pan sin gluten no puede: durar. Mientras un pan
+  fresco apto tiene pocos días de vida y necesita frío, la tostada de arroz o de maíz
+  aguanta meses a temperatura ambiente. Eso la convierte en el reemplazo diario del pan
+  para la mayoría de los celíacos, y en una de las compras más repetidas del catálogo.
+
+secciones:
+  - titulo: Qué tipos hay y en qué se diferencian
+    cuerpo: |
+      El grueso son las tortas o galletas de arroz, hechas por expandido del grano bajo
+      presión y calor, sin más ingrediente que el arroz y la sal. Después están las de
+      maíz, más quebradizas y de sabor más marcado, y las mixtas con quinoa, amaranto o
+      semillas, que apuntan a un consumidor que busca fibra.
+
+      También entran las tostadas tipo pan, horneadas y en rebanada, que se parecen más al
+      pan lactal tostado y que son las que compra quien quiere armar una tostada de
+      desayuno o una picada sin que se note el reemplazo.
+
+  - titulo: El problema de la rotura
+    cuerpo: |
+      Es la categoría más frágil del catálogo. Una torta de arroz no soporta peso ni
+      golpes, y el paquete roto es pérdida directa porque nadie compra tostadas partidas
+      aunque estén perfectas de sabor.
+
+      La regla práctica es simple: los bultos de tostadas van siempre arriba en el pallet y
+      en la estantería, nunca abajo. Conviene además revisar el bulto al recibirlo y no
+      trasladarlo dando vuelta la caja. Es el único producto donde el cuidado en el
+      manipuleo vale tanto como la rotación.
+
+  - titulo: "Quién repone tostadas todas las semanas"
+    cuerpo: |
+      A las dietéticas les da el producto de reposición semanal más previsible de todos.
+      A almacenes y autoservicios les conviene porque no vence rápido y ocupa poco fondo
+      de góndola. En cafeterías y hoteles funciona como base del desayuno sin gluten, que
+      es el servicio que más seguido queda sin resolver.
+
+  - titulo: "Certificación: el arroz no es sinónimo de apto"
+    cuerpo: |
+      Todas las tostadas del catálogo están certificadas por ANMAT como libres de gluten.
+      Conviene aclararlo porque en esta categoría abundan las galletas de arroz genéricas
+      sin certificación: el arroz no tiene gluten, pero la línea de expandido muchas veces
+      también procesa trigo inflado, y ahí es donde aparece la contaminación.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - galletas
+  - panes-bio
+  - pan-rallado
+  - palmeritas-grisines-y-rosquitas
+  - dulces-y-mermeladas

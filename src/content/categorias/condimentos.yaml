@@ -1,0 +1,58 @@
+intro: |
+  Los condimentos son la categoría que más sorprende a quien recién empieza a trabajar
+  sin gluten. Nadie espera que un frasco de pimentón o un sobre de caldo sea un problema,
+  y sin embargo es uno de los focos de contaminación más frecuentes en una cocina que por
+  lo demás hace todo bien. Un plato preparado con ingredientes aptos deja de serlo por la
+  cucharada de condimento del final.
+
+secciones:
+  - titulo: Dónde aparece el gluten en un condimento
+    cuerpo: |
+      Rara vez en la especia en sí. La pimienta, el orégano o el comino son hojas, semillas
+      y frutos: no tienen gluten. El gluten entra por tres puertas. La primera son los
+      antiaglomerantes y vehículos, donde a veces se usa harina de trigo como soporte
+      barato del sabor. La segunda son las mezclas: los caldos, los saborizadores y las
+      mezclas para milanesa o para pizza suelen llevar almidón de trigo o proteína de trigo
+      hidrolizada.
+
+      La tercera, y la menos visible, es el molino. Un molino que procesa mezclas con trigo
+      y después muele orégano deja residuo, y por eso una especia pura puede dar positivo
+      sin que la receta tenga nada de trigo.
+
+  - titulo: Cómo se maneja en el comercio y en la cocina
+    cuerpo: |
+      Del lado del comercio, la recomendación es simple: no fraccionar. El condimento
+      sin gluten pierde su condición en el momento en que se pasa a una bolsa en un local
+      donde también se fracciona harina común. Se vende cerrado, con su rótulo y su
+      número de registro visible.
+
+      Del lado de la cocina, el frasco compartido es el problema clásico: la cuchara que
+      antes tocó una preparación con harina vuelve al frasco y lo contamina para siempre.
+      Los locales que trabajan bien la categoría tienen frascos identificados y de uso
+      exclusivo para el servicio sin gluten.
+
+  - titulo: "Para qué comercios tiene sentido la línea de condimentos"
+    cuerpo: |
+      A las dietéticas y a los almacenes les funciona como complemento de ticket: es
+      barato, no ocupa lugar y casi no vence. A la gastronomía le sirve por otro motivo,
+      que es de gestión de riesgo más que de venta, porque le permite tener una línea de
+      condimentos certificada y cerrar el último agujero de su servicio sin gluten.
+
+  - titulo: "Certificación: por qué no alcanza con la especia pura"
+    cuerpo: |
+      Todos los condimentos del catálogo están certificados por ANMAT como libres de
+      gluten y llevan la espiga barrada. Dado que en esta categoría el riesgo está en el
+      proceso y no en la materia prima, la certificación del producto terminado es la
+      única garantía real: ninguna especia es apta "por naturaleza" si no se sabe en qué
+      molino se procesó.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - rebozador
+  - pan-rallado
+  - harinas-y-premezclas
+  - fideos-y-pastas
+  - snacks

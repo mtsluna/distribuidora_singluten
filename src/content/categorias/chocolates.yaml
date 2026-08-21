@@ -1,0 +1,56 @@
+intro: |
+  El chocolate es un caso particular dentro del catálogo: en su forma más simple ya es
+  libre de gluten, porque cacao, manteca de cacao y azúcar no lo contienen. El problema
+  nunca es la tableta lisa sino todo lo que se le agrega y la línea donde se produce. Por
+  eso es una categoría donde el cliente celíaco desconfía con razón y donde tener producto
+  certificado marca la diferencia.
+
+secciones:
+  - titulo: Dónde se rompe la aptitud
+    cuerpo: |
+      Las inclusiones son el primer riesgo: trozos de galleta, cereales crocantes,
+      obleas y rellenos tipo mousse suelen partir de trigo. El segundo es el extracto de
+      malta, un saborizante de cebada muy común en chocolates con leche de fabricación
+      industrial.
+
+      El tercero es el más difícil de detectar y es la línea compartida. Una fábrica que
+      produce un chocolate con obleas y a continuación una tableta lisa arrastra restos por
+      las cintas y los moldes. Por eso una tableta sin ingredientes con gluten puede no ser
+      apta, y por eso el rótulo certificado importa más que la lista de ingredientes.
+
+  - titulo: El manejo en verano
+    cuerpo: |
+      Es la categoría más sensible a la temperatura de todo el catálogo. Por encima de los
+      veinticinco grados la manteca de cacao empieza a migrar y aparece el velo blanco en
+      la superficie. El producto sigue siendo apto y comestible, pero el cliente lo lee
+      como vencido y no lo compra.
+
+      En Mendoza y San Juan eso condiciona la logística de diciembre a marzo. Conviene
+      pedir menos cantidad y más seguido en verano, guardar lejos de vidrieras con sol
+      directo, y no exponer tabletas en mostradores sin sombra.
+
+  - titulo: "Qué negocios trabajan chocolate sin gluten"
+    cuerpo: |
+      A las dietéticas les cierra la compra emocional, que es la que más margen deja. A
+      kioscos y autoservicios les da respuesta para un pedido muy frecuente y hoy mal
+      cubierto. Y a pastelerías y heladerías que trabajan sin gluten les sirve como insumo,
+      para baños, rellenos y coberturas donde el chocolate común suele ser el eslabón que
+      contamina.
+
+  - titulo: "Certificación ANMAT en chocolate sin gluten"
+    cuerpo: |
+      Todos los chocolates del catálogo están certificados por ANMAT y figuran en el
+      Listado Oficial de Alimentos Libres de Gluten. Vale insistir con esto frente al
+      cliente: la creencia de que "el chocolate no tiene gluten" es la razón por la que
+      muchos celíacos consumen sin mirar el rótulo y terminan con síntomas.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - alfajores
+  - budines
+  - barras-de-cereal-proteicas
+  - galletas
+  - tapas-de-alfajor

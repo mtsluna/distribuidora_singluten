@@ -1,0 +1,57 @@
+intro: |
+  La cerveza sin gluten es la categoría más técnica del catálogo y la que más
+  malentendidos genera. La cerveza tradicional se hace con malta de cebada, o sea que el
+  gluten no es una contaminación accidental sino el ingrediente central. Lograr una
+  cerveza apta implica cambiar el proceso, no filtrar el producto, y eso explica por qué
+  hay tan pocas opciones y por qué el que las encuentra se vuelve cliente fijo.
+
+secciones:
+  - titulo: Dos caminos muy distintos para hacerla
+    cuerpo: |
+      El primero es cervecear sin cebada, con sorgo, arroz, mijo o maíz como grano base.
+      El producto nace libre de gluten desde la materia prima, con un perfil de sabor
+      propio que suele ser más liviano y algo más seco que una rubia clásica.
+
+      El segundo es partir de cebada y degradar el gluten con enzimas durante la
+      fermentación. Da una cerveza más parecida a la tradicional, pero es la vía que exige
+      controles analíticos más estrictos, porque lo que se mide es un residuo. En Argentina
+      cualquiera de las dos sólo puede rotularse sin TACC si el producto terminado está
+      inscripto en el Listado Oficial y verifica el límite de 10 mg de gluten por kilo.
+
+  - titulo: Cómo se maneja en el punto de venta
+    cuerpo: |
+      Es la única categoría del catálogo con producto en vidrio, así que el flete y el
+      apilado tienen otras reglas: caja cerrada, nunca invertida y con separadores. La
+      rotura no sólo es pérdida, también arruina el resto del bulto.
+
+      La luz y el calor le pegan más que a la cerveza común en algunos casos, porque las
+      versiones sin cebada suelen tener menos cuerpo para disimular defectos. Depósito
+      fresco y sin sol directo, y rotación por fecha estricta.
+
+  - titulo: "Qué locales piden cerveza sin gluten"
+    cuerpo: |
+      A cervecerías, bares y restaurantes les resuelve una situación incómoda y frecuente:
+      la mesa donde todos toman cerveza y hay una persona que no puede. Tener una sola
+      referencia apta en la carta cambia esa experiencia por completo.
+
+      A vinotecas, almacenes y dietéticas les funciona como producto de nicho con poca
+      competencia, y a los salones de eventos les permite cerrar el servicio de bebidas sin
+      excluir a nadie.
+
+  - titulo: "Certificación ANMAT de la cerveza sin gluten"
+    cuerpo: |
+      Todas las cervezas del catálogo están certificadas por ANMAT y figuran en el Listado
+      Oficial de Alimentos Libres de Gluten. Es la categoría donde menos hay que
+      improvisar: una cerveza artesanal presentada como apta sin registro no tiene forma de
+      demostrar el nivel de gluten residual, y el comercio que la vende asume ese riesgo.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - snacks
+  - pochoclos
+  - palmeritas-grisines-y-rosquitas
+  - condimentos
+  - galletas

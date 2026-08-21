@@ -1,0 +1,57 @@
+intro: |
+  Las tapas de alfajor son el producto más business del catálogo: casi nadie las compra
+  para consumir, se compran para producir. Quien las lleva es una pastelería, una cocina
+  emprendedora o alguien que arma alfajores para vender, y por eso es una categoría con
+  compra repetida, previsible y por volumen.
+
+secciones:
+  - titulo: Qué se compra cuando se compran tapas
+    cuerpo: |
+      Se compra tiempo. La tapa es la parte difícil de un alfajor sin gluten: requiere una
+      formulación de almidones que no se desarme al rellenar y un horneado parejo que en una
+      cocina chica es casi imposible de replicar. El relleno y el baño, en cambio, cualquiera
+      los resuelve.
+
+      Eso define el perfil de cliente: no es el consumidor final sino el que quiere una línea
+      propia sin montar una planta. Y también explica por qué es una categoría poco sensible
+      al precio de góndola y muy sensible al rinde por caja.
+
+  - titulo: Manipuleo y rinde
+    cuerpo: |
+      Es un producto frágil y en formato apilado, así que la rotura se concentra en la
+      manipulación, no en el transporte largo. Conviene abrir el paquete de costado y no
+      volcarlo, y trabajar sobre superficie limpia y seca porque la tapa toma humedad
+      rápidamente y pierde la textura quebradiza que la hace funcionar.
+
+      Para quien produce, el dato que importa es cuántas unidades salen por caja y cuánto
+      relleno lleva cada alfajor: ahí se define el costo unitario final, más que en el precio
+      de la tapa.
+
+  - titulo: "Quién compra tapas de alfajor sin gluten"
+    cuerpo: |
+      A pastelerías y confiterías que quieren abrir línea sin gluten sin cambiar su
+      producción. A emprendedores gastronómicos que venden alfajores por encargo o en ferias.
+      Y a cafeterías que arman su propia vitrina y prefieren un producto con su identidad
+      antes que revender una marca.
+
+      También lo compran dietéticas para clientes que hacen alfajores en casa, aunque ese
+      segmento mueve mucho menos volumen.
+
+  - titulo: "Certificación ANMAT de las tapas de alfajor"
+    cuerpo: |
+      Todas las tapas del catálogo están certificadas por ANMAT como libres de gluten. Para
+      quien produce y revende esto es doblemente importante: el alfajor terminado sólo puede
+      presentarse como apto si todos sus componentes lo son, y la tapa es el que aporta el
+      mayor riesgo de la receta.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - alfajores
+  - chocolates
+  - membrillos
+  - harinas-y-premezclas
+  - budines
+  - vainillas-y-masas-secas

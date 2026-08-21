@@ -1,0 +1,58 @@
+intro: |
+  Los snacks son la categoría de impulso del catálogo: no se compran por lista, se compran
+  porque estaban a la vista. Eso los vuelve distintos del resto del surtido sin gluten,
+  donde casi todo es compra planificada. Acá el que decide es el chico, el adolescente o
+  el adulto que quiere picar algo, y muchas veces ni siquiera es celíaco.
+
+secciones:
+  - titulo: Qué entra en la categoría
+    cuerpo: |
+      La base es el maíz extrudido: conitos, palitos, bolitas y chizitos, que son
+      naturalmente sin gluten porque parten de sémola de maíz. A eso se suman los snacks
+      de papa, los de legumbres y las versiones horneadas, que ganaron lugar en los
+      últimos años por el pedido de opciones menos grasas.
+
+      El detalle importante es que el riesgo casi nunca está en la base sino en el
+      saborizante. Los polvos de queso, los saborizantes tipo asado y algunos aditivos
+      usan derivados de trigo o malta de cebada como vehículo, y ahí es donde un producto
+      de maíz deja de ser apto.
+
+  - titulo: Exhibición y rotación
+    cuerpo: |
+      El snack es volumen sin peso: ocupa mucho lugar y pesa poco, así que el costo real
+      está en el espacio de depósito, no en el flete. Conviene pedir lo que se vende en
+      dos o tres semanas antes que acumular bultos que ocupan media trastienda.
+
+      Es una categoría muy sensible a la ubicación. Cerca de la caja rota varias veces más
+      que en la góndola de fondo, y en un local que trabaja sin TACC funciona bien
+      exhibida junto a las bebidas antes que dentro del sector dietético, porque compite
+      con el snack común y no con el producto para celíacos.
+
+  - titulo: "Dónde se vende mejor el snack sin gluten"
+    cuerpo: |
+      A kioscos y maxikioscos les da una respuesta para el cliente celíaco que hoy no
+      tiene qué llevar, y es un diferencial barato de sostener. A los almacenes y
+      autoservicios les rinde por rotación pura.
+
+      En cervecerías, bares y salones de eventos el snack sin gluten resuelve el picoteo
+      de mesa sin tener que armar dos servicios distintos, que es el escenario donde más
+      seguido se cuelan errores de contaminación.
+
+  - titulo: "Por qué el snack necesita certificación por producto"
+    cuerpo: |
+      Todos los snacks del catálogo están certificados por ANMAT y llevan la espiga de
+      trigo barrada. Como el punto débil de la categoría es el saborizante y no la
+      materia prima, la certificación por producto terminado es lo único que garantiza
+      que ese sabor puntual sea apto: que la marca tenga otras variedades certificadas no
+      alcanza.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - pochoclos
+  - galletas
+  - palmeritas-grisines-y-rosquitas
+  - barras-de-cereal-proteicas
+  - chocolates

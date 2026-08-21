@@ -1,4 +1,5 @@
 ---
+import { categories, totalProductos } from '../data/categories.ts';
 ---
 
 <section id="nosotros" class="py-20 lg:py-28 bg-white relative overflow-hidden">
@@ -20,8 +21,8 @@
 
         <p class="text-lg text-gray-600 leading-relaxed mb-6">
           En 2015, comenzamos distribuyendo productos sin gluten a dietéticas de
-          Mendoza con unas pocas marcas. Hoy, más de dos décadas después, nuestra red abastece a
-          cientos de comercios en Mendoza, San Juan y San Luis con <strong class="text-[#1C1C1C]">300 productos en 22 categorías</strong>,
+          Mendoza con unas pocas marcas. Hoy, más de diez años después, nuestra red abastece a
+          cientos de comercios en Mendoza, San Juan y San Luis con <strong class="text-[#1C1C1C]">{totalProductos} productos en {categories.length} categorías</strong>,
           todos certificados por ANMAT.
         </p>
 

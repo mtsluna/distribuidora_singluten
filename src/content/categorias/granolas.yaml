@@ -1,0 +1,54 @@
+intro: |
+  La granola sin gluten resuelve el desayuno de quien no quiere comer galletas todos los
+  días. Es una categoría chica en cantidad de códigos pero con un cliente muy fiel: quien
+  la incorpora la compra todas las semanas, casi siempre junto con leches vegetales o
+  yogur, y no la reemplaza por otra cosa.
+
+secciones:
+  - titulo: Por qué una granola apta es más difícil de lo que parece
+    cuerpo: |
+      La granola clásica es avena horneada con miel o jarabe y frutos secos. Y la avena, en
+      Argentina, está dentro de la sigla TACC, así que no se puede usar avena convencional.
+      Una granola apta o usa avena con trazabilidad certificada, o la reemplaza por copos de
+      arroz, quinoa inflada, amaranto, trigo sarraceno o mijo.
+
+      El otro punto es el ligante: los jarabes de malta salen de cebada y son frecuentes en
+      granolas industriales. Sustituirlos por miel o jarabe de arroz cambia el punto de
+      caramelización y por eso las granolas aptas suelen tener el cluster más suelto que las
+      convencionales.
+
+  - titulo: Conservación
+    cuerpo: |
+      Tiene frutos secos y semillas, o sea grasa, y la grasa se enrancia. Es de las
+      categorías del catálogo donde la fecha manda: una granola pasada no se ve distinta,
+      pero el sabor amargo del fruto seco rancio es inmediato y el cliente no vuelve.
+
+      También pierde crocante con la humedad ambiente, así que el envase resellable es un
+      diferencial real de venta y no un detalle de packaging.
+
+  - titulo: "Dónde se vende bien la granola sin gluten"
+    cuerpo: |
+      A las dietéticas es donde naturalmente pertenece, y funciona muy bien exhibida junto a
+      las leches vegetales porque se compran juntas. A cafeterías con propuesta saludable les
+      permite armar un bowl apto sin cambiar la receta base.
+
+      En hotelería aparece en el buffet de desayuno, aunque ahí requiere recipiente exclusivo:
+      compartir el dispenser con una granola común anula todo.
+
+  - titulo: "Certificación: por qué saludable no significa apto"
+    cuerpo: |
+      Las granolas del catálogo están certificadas por ANMAT como libres de gluten y figuran
+      en el Listado Oficial. Es una categoría donde el rótulo "natural" o "saludable" confunde
+      mucho: la mayoría de las granolas del mercado llevan avena convencional y no son aptas,
+      por más sanas que sean.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - avenas
+  - leches
+  - barras-de-cereal-proteicas
+  - dulces-y-mermeladas
+  - galletas

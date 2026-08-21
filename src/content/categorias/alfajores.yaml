@@ -1,0 +1,57 @@
+intro: |
+  El alfajor es el producto argentino por excelencia y también el que más se extraña
+  cuando aparece un diagnóstico de celiaquía. Por eso es una categoría emocional antes que
+  funcional: no se compra por nutrición sino para no quedar afuera del kiosco, del recreo
+  o del mate de la tarde. Un comercio que tiene alfajores sin gluten a la vista se gana un
+  cliente fijo, porque es de las cosas más difíciles de conseguir sueltas.
+
+secciones:
+  - titulo: Cómo está armado un alfajor sin gluten
+    cuerpo: |
+      La tapa es el desafío. Sin gluten la masa no tiene elasticidad, así que se trabaja
+      con almidón de maíz y harina de arroz en proporciones altas, lo que da una tapa más
+      friable que se rompe con facilidad si el alfajor se golpea. El relleno de dulce de
+      leche y el baño de chocolate o glaseado, en cambio, no suelen presentar problema
+      salvo por la línea donde se producen.
+
+      Eso define cómo hay que tratarlos: caja arriba, nunca abajo del pallet, y evitar
+      dejarlos al sol o cerca de una fuente de calor, porque el baño se funde y el
+      producto queda invendible aunque siga apto.
+
+  - titulo: Formato y canal de venta
+    cuerpo: |
+      El alfajor sin gluten se mueve casi siempre en caja de exhibición, que es lo que
+      permite ponerlo sobre el mostrador y venderlo por unidad. Es una diferencia
+      importante frente al resto del catálogo: acá el packaging es parte de la venta, y
+      una caja abierta y bien ubicada rinde mucho más que el mismo producto guardado en
+      góndola.
+
+      El precio unitario es más alto que el del alfajor común y conviene no esconderlo. El
+      cliente celíaco ya sabe que paga más; el que se pierde una venta es el comercio que
+      no exhibe por miedo a la comparación.
+
+  - titulo: "En qué canal se vende el alfajor sin gluten"
+    cuerpo: |
+      A kioscos, maxikioscos y estaciones de servicio les da un producto de impulso con
+      buen margen y sin competencia local. A las dietéticas les funciona como cierre de
+      compra, al lado de la caja. En cafeterías y confiterías resuelve la opción dulce
+      para acompañar el café, que es la consulta más repetida de un cliente celíaco.
+
+  - titulo: "Certificación ANMAT del alfajor sin gluten"
+    cuerpo: |
+      Todos los alfajores del catálogo están certificados por ANMAT como libres de gluten,
+      llevan la espiga de trigo barrada y figuran en el Listado Oficial de Alimentos
+      Libres de Gluten. Es un dato que conviene poder mostrar: en esta categoría abundan
+      los productos artesanales que se ofrecen como aptos sin registro, y el comercio que
+      vende con certificación tiene con qué respaldarse.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - tapas-de-alfajor
+  - chocolates
+  - budines
+  - galletas
+  - membrillos

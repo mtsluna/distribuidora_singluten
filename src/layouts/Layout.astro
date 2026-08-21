@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import { categories } from '../data/categories.ts';
+import { categories, totalProductos } from '../data/categories.ts';
 
 interface Props {
   title?: string;
@@ -25,7 +25,7 @@ const schemaOrg = {
       "@id": `${SITE_URL}/#business`,
       "name": "Distribuidora Sin Gluten",
       "alternateName": ["Distribuidora Sin Gluten", "Mayorista Sin gluten Cuyo"],
-      "description": "Distribuidora mayorista de productos sin gluten y sin gluten en la región de Cuyo, Argentina. Más de 10 años de trayectoria. 300 productos certificados por ANMAT en 22 categorías.",
+      "description": `Distribuidora mayorista de productos sin gluten y sin gluten en la región de Cuyo, Argentina. Más de 10 años de trayectoria. ${totalProductos} productos certificados por ANMAT en ${categories.length} categorías.`,
       "url": SITE_URL,
       "telephone": "+5492615080439",
       "email": "singlutenmendoza@gmail.com",
@@ -68,7 +68,7 @@ const schemaOrg = {
         "itemOffered": {
           "@type": "Service",
           "name": "Distribución mayorista de productos sin gluten",
-          "description": "Venta y distribución al por mayor de más de 300 productos sin gluten certificados por ANMAT para dietéticas, almacenes, supermercados y gastronomía en Cuyo."
+          "description": `Venta y distribución al por mayor de ${totalProductos} productos sin gluten certificados por ANMAT para dietéticas, almacenes, supermercados y gastronomía en Cuyo.`
         },
         "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
         "areaServed": "Cuyo, Argentina"
@@ -77,8 +77,8 @@ const schemaOrg = {
         "@type": "OfferCatalog",
         "@id": `${SITE_URL}/#catalog`,
         "name": "Catálogo de productos sin gluten",
-        "numberOfItems": 300,
-        "description": "300 productos sin gluten y sin gluten certificados por ANMAT, en 22 categorías."
+        "numberOfItems": totalProductos,
+        "description": `${totalProductos} productos sin gluten y sin gluten certificados por ANMAT, en ${categories.length} categorías.`
       },
       "logo": {
         "@type": "ImageObject",
@@ -120,7 +120,7 @@ const schemaOrg = {
       "@type": "ItemList",
       "@id": `${SITE_URL}/#category-list`,
       "name": "Categorías de productos sin gluten",
-      "description": "22 categorías de productos sin gluten y sin gluten distribuidos por Distribuidora Sin Gluten en la región de Cuyo.",
+      "description": `${categories.length} categorías de productos sin gluten y sin gluten distribuidos por Distribuidora Sin Gluten en la región de Cuyo.`,
       "numberOfItems": categories.length,
       "itemListOrder": "https://schema.org/ItemListOrderAscending",
       "itemListElement": categories.map((cat, i) => ({

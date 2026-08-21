@@ -1,0 +1,62 @@
+intro: |
+  Los fideos son la segunda categoría del catálogo y la que más resuelve el problema
+  cotidiano de una casa con un celíaco: es el plato que permite que toda la familia coma
+  lo mismo. Por eso la pasta sin gluten no se vende como producto dietético sino como
+  reemplazo directo, y el cliente la compara con la pasta común en precio, en formato y
+  en cómo queda en el plato.
+
+secciones:
+  - titulo: De qué están hechos y cómo se cocinan
+    cuerpo: |
+      La mayoría se elabora con harina de maíz, de arroz o una mezcla de ambas, y una
+      parte del surtido suma legumbres como lenteja o garbanzo, que aportan proteína y
+      un color propio. Sin gluten no hay red que retenga el almidón, así que la pasta
+      libera mucho más almidón al agua y tolera bastante menos cocción: se pasa de punto
+      en cuestión de un minuto.
+
+      Conviene avisarle al cliente que use abundante agua, que respete el tiempo del
+      paquete tirando a menos, y que no la deje reposar en el agua caliente. Enjuagar
+      con agua fría cuando la pasta va a ensalada evita que se apelmace. Son detalles
+      chicos que definen si vuelve a comprar la marca o no.
+
+  - titulo: El punto crítico en gastronomía
+    cuerpo: |
+      Para un restaurante o una rotisería el problema no es el fideo, es la olla. Cocinar
+      pasta sin gluten en el agua donde antes hirvió pasta de trigo contamina el plato y
+      anula todo el trabajo del proveedor. Lo mismo con el colador, la espumadera y la
+      tabla.
+
+      Los locales que trabajan bien esta categoría separan utensillos, cocinan la porción
+      sin gluten primero o directamente usan agua nueva. Vale la pena conversarlo al
+      momento de la venta: un cliente gastronómico que tuvo un incidente por
+      contaminación cruzada deja de comprar la categoría entera.
+
+  - titulo: "Quién compra pasta sin gluten al por mayor"
+    cuerpo: |
+      En dietéticas y almacenes la pasta seca es de las categorías más previsibles: no se
+      rompe, tiene vida útil larga y ocupa poco lugar por unidad vendida. Es buena para
+      comercios que recién empiezan a armar surtido sin TACC porque el riesgo de quedarse
+      con stock vencido es bajo.
+
+      En gastronomía y catering el volumen aparece cuando el local incorpora una opción
+      sin gluten fija en la carta en lugar de resolverla a pedido. Ahí la compra pasa de
+      un paquete suelto a bulto cerrado y con frecuencia estable.
+
+  - titulo: "Certificación ANMAT en pastas sin gluten"
+    cuerpo: |
+      Toda la pasta que distribuimos está certificada por ANMAT como libre de gluten,
+      lleva la espiga de trigo barrada y figura en el Listado Oficial de Alimentos Libres
+      de Gluten. El límite argentino es de 10 mg de gluten por kilo, y en pastas eso
+      implica además líneas de producción dedicadas, porque la sémola de trigo deja polvo
+      en suspensión que contamina con facilidad.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - harinas-y-premezclas
+  - rebozador
+  - condimentos
+  - pan-rallado
+  - panes-bio

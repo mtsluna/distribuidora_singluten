@@ -1,0 +1,61 @@
+intro: |
+  Las harinas y premezclas son la categoría de insumo del catálogo: no se consumen, se
+  usan para producir. Quien las compra no está resolviendo una merienda sino habilitando
+  todo lo que después va a amasar, y por eso es la categoría con mayor efecto multiplicador
+  sobre el resto de la compra. Una panadería que incorpora premezcla termina comprando
+  también rebozador, pan rallado y tapas de alfajor.
+
+secciones:
+  - titulo: Harina simple o premezcla, no son lo mismo
+    cuerpo: |
+      La harina simple es un solo ingrediente molido: arroz, maíz, mandioca, garbanzo,
+      almendra. Sirve para quien tiene receta propia y quiere manejar la proporción, y es
+      lo que buscan las panaderías con panadero formado en sin gluten.
+
+      La premezcla ya viene formulada, con la mezcla de almidones y el hidrocoloide
+      incorporado, sea goma xántica, psyllium o CMC. Es la que compra el cliente final que
+      quiere hacer pan o pizza en casa sin fallar, y la que conviene tener en góndola en
+      dietéticas. Confundirlas es el error más habitual: vender harina de arroz a alguien
+      que esperaba una premezcla termina en una devolución y en una mala experiencia.
+
+  - titulo: Lo que hay que saber para almacenarlas
+    cuerpo: |
+      Las harinas integrales y las de frutos secos tienen grasa, y la grasa se enrancia.
+      La harina de almendra o la de arroz integral no aguantan lo mismo que un almidón de
+      maíz, que es prácticamente inerte. Conviene rotar por fecha con más cuidado del que
+      pide el resto del catálogo y no comprar volumen de las variedades grasas si la
+      salida es lenta.
+
+      El otro punto es el polvo. La harina en suspensión viaja: un depósito donde también
+      se fracciona harina de trigo contamina bolsas cerradas al abrirlas. Si el comercio
+      maneja las dos cosas, lo mínimo es estantería separada y por encima de la de trigo.
+
+  - titulo: "Qué comercios compran harinas y premezclas"
+    cuerpo: |
+      A las dietéticas les da el corazón del surtido, porque el cliente que amasa vuelve
+      todos los meses y con volumen previsible. A las panaderías y pastelerías que abren
+      una línea sin gluten les define el costo del producto final, así que es una compra
+      que negocian por bulto y no por unidad.
+
+      También aparece en gastronomía por un motivo menos obvio: la premezcla resuelve
+      espesar salsas, empanar y armar bases de tarta sin tener que comprar tres insumos
+      distintos.
+
+  - titulo: "Certificación ANMAT en harinas y premezclas"
+    cuerpo: |
+      Todas las harinas y premezclas están certificadas por ANMAT como libres de gluten y
+      figuran en el Listado Oficial. En esta categoría la certificación pesa más que en
+      ninguna otra: una harina contaminada no arruina un producto, arruina toda la
+      producción que se haga con ella.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - pan-rallado
+  - rebozador
+  - avenas
+  - fideos-y-pastas
+  - panes-bio
+  - tortillas

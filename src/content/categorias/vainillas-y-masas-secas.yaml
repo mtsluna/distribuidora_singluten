@@ -1,0 +1,59 @@
+intro: |
+  Las vainillas son un insumo de repostería antes que un producto de merienda, y ahí está
+  su valor: sin vainillas sin gluten no hay tiramisú, no hay charlotte y no hay postre de
+  cumpleaños que se pueda armar en casa. Las masas secas cubren el otro extremo, el surtido
+  de confitería que se pone en la mesa con el café. Son pocos códigos, pero resuelven
+  ocasiones que ninguna otra categoría del catálogo cubre.
+
+secciones:
+  - titulo: Por qué la vainilla es de lo más difícil de reemplazar
+    cuerpo: |
+      Una vainilla es un bizcocho batido, mangueado y horneado hasta quedar seco por fuera y
+      aireado por dentro. Toda esa estructura la sostiene la red de gluten que atrapa el aire
+      del batido de huevo. Sin trigo hay que reconstruirla con almidón de maíz, fécula y una
+      proporción de huevo bastante mayor, y aun así la pieza sale más frágil.
+
+      Eso explica dos cosas que el comercio nota enseguida: que hay pocas marcas que la
+      hagan bien y que el producto llega roto si el bulto viaja mal. Es de las categorías
+      donde más conviene revisar la caja al recibirla.
+
+  - titulo: Cómo se comporta al usarla
+    cuerpo: |
+      La vainilla sin gluten absorbe líquido mucho más rápido que la común. En un tiramisú
+      o en un postre de café, el remojo que una vainilla de trigo aguanta unos segundos acá
+      hay que reducirlo casi a un toque, porque si no la pieza se deshace y el postre queda
+      en papilla.
+
+      Vale la pena decírselo a quien compra, sobre todo si es la primera vez. Es el motivo
+      más común por el que alguien prueba la categoría, le sale mal el postre y no vuelve a
+      comprarla.
+
+  - titulo: Qué comercios trabajan vainillas y masas secas
+    cuerpo: |
+      A las dietéticas les funciona como producto de ocasión más que de reposición semanal:
+      se vende fuerte antes de fiestas, cumpleaños y fechas donde se arma postre. Conviene
+      tener stock en esos picos y no cargar el resto del año.
+
+      A confiterías y cafeterías las masas secas les resuelven el plato de mesa y la bandeja
+      para acompañar el café, que hoy casi siempre deja afuera al comensal celíaco. Y a
+      pastelerías que producen postres por encargo la vainilla les evita tener que hornear un
+      bizcochuelo propio para cada pedido.
+
+  - titulo: Certificación ANMAT de vainillas y masas secas
+    cuerpo: |
+      Todo lo de esta categoría está certificado por ANMAT como libre de gluten y figura en
+      el Listado Oficial de Alimentos Libres de Gluten. Es especialmente relevante acá porque
+      la vainilla es un producto clásico de panadería: la versión apta se elabora en planta
+      separada, ya que en un obrador con harina de trigo en el aire ningún batido queda
+      realmente libre de gluten.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - galletas
+  - budines
+  - tapas-de-alfajor
+  - chocolates
+  - dulces-y-mermeladas

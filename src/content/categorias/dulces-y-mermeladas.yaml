@@ -1,0 +1,55 @@
+intro: |
+  Los dulces y mermeladas son de los pocos productos que un celíaco puede comprar casi con
+  tranquilidad: fruta, azúcar y poco más. Pero "casi" no alcanza cuando el diagnóstico
+  obliga a leer todo, y por eso una línea certificada tiene valor real incluso en una
+  categoría que parece inofensiva. Además, es el acompañamiento natural de dos categorías
+  grandes del catálogo, las tostadas y las galletas.
+
+secciones:
+  - titulo: Qué se controla en una mermelada
+    cuerpo: |
+      El riesgo no está en la fruta sino en los espesantes y en los agregados. Algunos
+      productos usan almidones modificados sin especificar el origen, y en las variedades
+      con cereal, con granola o tipo repostería aparecen ingredientes con gluten
+      directamente. Las jaleas con glucosa de trigo son otro caso a mirar.
+
+      También conviene distinguir mermelada de dulce y de jalea, porque no es sólo
+      nomenclatura: cambian la proporción de fruta y de azúcar, y con eso el precio, la
+      textura y para qué sirve cada una en la cocina.
+
+  - titulo: Conservación después de abierto
+    cuerpo: |
+      Es una categoría de vida útil larga con el frasco cerrado y bastante corta una vez
+      abierto. Refrigerado y con utensilio limpio dura semanas; con la cuchara que antes
+      untó una tostada de trigo, en cambio, queda contaminado para siempre. Es exactamente
+      el mismo problema del frasco de condimentos y conviene explicarlo igual de claro.
+
+      En gastronomía eso empuja hacia los formatos individuales tipo porción, que además
+      resuelven el desayuno de hotel sin necesidad de tener un frasco exclusivo por
+      comensal.
+
+  - titulo: "Dónde suma la línea de dulces y mermeladas"
+    cuerpo: |
+      A las dietéticas y almacenes les completa la compra de desayuno junto con tostadas y
+      galletas, y sube el ticket sin ocupar espacio nuevo. A hoteles, hosterías y
+      cafeterías el formato porción les permite ofrecer un desayuno sin gluten sin montar
+      un servicio aparte.
+
+  - titulo: "Certificación ANMAT en dulces y mermeladas"
+    cuerpo: |
+      Todos los dulces y mermeladas del catálogo están certificados por ANMAT y figuran en
+      el Listado Oficial de Alimentos Libres de Gluten. Que la mayoría de las mermeladas
+      del mercado sean aptas no significa que todas lo sean, y para un comercio que vende a
+      público celíaco la diferencia entre "probablemente apto" y "certificado" es la que
+      importa.
+
+marcas: null            # TODO cliente
+presentaciones: null    # TODO cliente
+minimoCompra: null      # TODO cliente
+
+relacionadas:
+  - membrillos
+  - tostadas
+  - galletas
+  - panes-bio
+  - budines

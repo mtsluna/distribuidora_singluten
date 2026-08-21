@@ -1,10 +1,10 @@
 ---
-import { categories } from '../data/categories';
+import { categories, totalProductos } from '../data/categories';
 
 // Pre-compute animation data in frontmatter (avoids < operator in JSX)
 // Each category gets a random phase offset so they cycle independently
 const catData = categories.map(cat => {
-  const animImgs = cat.productImages.slice(0, 3); // home card cycles max 3
+  const animImgs = cat.productos.slice(0, 3).map(p => p.imagen); // home card cycles max 3
   const n = animImgs.length;
   const cycle = n * 6;  // 6 seconds per image
   const slot = 6;
@@ -30,7 +30,7 @@ const catData = categories.map(cat => {
         {categories.length} categorías de productos
       </h2>
       <p class="text-lg text-gray-500 max-w-2xl mx-auto">
-        Más de <strong class="text-[#2D6A4F]">300 productos</strong> en {categories.length} categorías,
+        <strong class="text-[#2D6A4F]">{totalProductos} productos</strong> en {categories.length} categorías,
         todos libres de gluten y certificados por ANMAT.
       </p>
     </div>
@@ -39,7 +39,7 @@ const catData = categories.map(cat => {
     <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
       {catData.map((cat) => (
         <a
-          href={`/categorias/${cat.slug}`}
+          href={`/categorias/${cat.slug}/`}
           class="group relative flex flex-col rounded-2xl border border-gray-100 hover:border-[#2D6A4F]/30 bg-white hover:shadow-md transition-all duration-300 hover:-translate-y-1 overflow-hidden"
           title={`${cat.name} sin gluten al por mayor - ${cat.count} productos`}
         >
@@ -48,7 +48,7 @@ const catData = categories.map(cat => {
             {cat.animImgs.map((url, i) => (
               <img
                 src={url}
-                alt={`Productos sin gluten: ${cat.name}`}
+                alt={`${cat.name} sin gluten al por mayor`}
                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 style={`animation: ${cat.animName} ${cat.cycle}s ${cat.delays[i]}s linear infinite; will-change: opacity;`}
                 loading="lazy"
